@@ -39,6 +39,11 @@ extra_css:
 # Extensions    
 markdown_extensions:
     - admonition
+
+# Plugins    
+plugins:
+    - search
+    - img2fig
   
 # Navigation  
 nav:
