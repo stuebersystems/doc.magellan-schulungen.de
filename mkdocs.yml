@@ -1,0 +1,48 @@
+# Project information
+site_name: MAGELLAN 7 Schulungsunterlagen
+site_description: 'MAGELLAN 7 Schulungsunterlagen'
+site_author: 'STÜBER SYSTEMS GmbH'
+site_url: 'https://doc.magellan-schulungen.stueber.de'
+
+# Copyright
+copyright: © 2019 STÜBER SYSTEMS GmbH
+
+# Repository
+repo_name: 'Auf GitHub'
+repo_url: 'https://github.com/stuebersystems/doc.magellan-schulungen.de'
+
+# Theming
+theme: 
+    name: null
+    custom_dir: 'theme'
+    language: de
+    direction:
+    feature:
+        tabs: false
+    palette:
+        primary: 'blue'
+        accent: 'deep orange'
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/logos/favicon.ico
+    logo: 'assets/logos/logo.svg'
+    include_search_page: false
+    search_index_only: true
+    static_templates:
+      - 404.html
+
+# Customization
+extra_css:
+    - assets/css/custom.css
+    
+# Extensions    
+markdown_extensions:
+    - admonition
+  
+# Navigation  
+nav:
+- Überblick: index.md
+- M01 - MAGELLAN Einführung: m01_magellan_einfuehrungsschulung.md
+- M02 - MAGELLAN Zeugniskarte: m02_magellan_zeugniskarte.md
+- M03 - MAGELLAN Administrator: m03_magellan_administrator.md
