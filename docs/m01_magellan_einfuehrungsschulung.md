@@ -19,7 +19,7 @@ Standardmäßig meldet man sich mit dem Benutzer `sysdba` und dem Kennwort `mast
 
 Aufruf|Anmerkung
 ---|---
-Ordner öffnen|Hier starten Sie den Windowsexplorer.
+Webseiten|Hier starten Sie den Windowsexplorer.
 Homepage aufrufe|Öffnet die Internetseiten www.stueber.de. Alle Menüs sind über die blaue Menüleiste auf der linken Bildschirmseite zu erreichen.
 
 ![Willkommensfenster](/assets/images/willk.png)
