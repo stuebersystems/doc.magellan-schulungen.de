@@ -17,20 +17,18 @@ Standardmäßig meldet man sich mit dem Benutzer `sysdba` und dem Kennwort `mast
 
 ## Der Willkommen-Bildschirm
 
-Aufruf|Anmerkung
----|---
-Webseiten|Hier starten Sie den Windowsexplorer.
-Homepage aufrufe|Öffnet die Internetseiten www.stueber.de. Alle Menüs sind über die blaue Menüleiste auf der linken Bildschirmseite zu erreichen.
+Unsere Module starten mit einer Willkommensseite, die später auch über `Hilfe > Willkommen` erneut aufgerufen werden kann. Der Willkommensbildschirm enthält beispielsweise Links zu unseren Dokumentationen, zu den Downloads, zum Ticketsysstem oder zu unseren Social Media-Seiten. 
+Auf der rechten Seite gibt es einen Bereich mit nach Erscheinungsdatum sortieren Hinweisen, über die wir Sie per Newsfees informieren möchten. Diese Informationen können nur gezeigt werden, wenn eine Internetverbindung aufgebaut ist.
 
 ![Willkommensfenster](/assets/images/willk.png)
 
 ## Schlüsselverzeichnisse - Bundeslandspezifische Schlüssel
 
-In MAGELLAN finden Sie zwei verschiedene Arten von Formularfeldern. Die einen sind frei auszufüllen (z.B. der Name), bei den anderen wurde eine Tabelle hinterlegt (z.B. Konfessionen), aus denen Sie Einträge auswählen müssen.
+In MAGELLAN finden Sie verschiedene Arten von Formularfeldern. Die einen sind frei auszufüllen (z.B. der Name), bei den anderen wurde eine Liste hinterlegt (z.B. Konfessionen), aus denen Sie Einträge auswählen müssen.
 
 ![Werte hinter dem Feld Konfessionen](/assets/images/konf.png)
 
-Diese Tabellen heißen Schlüsselverzeichnisse und sind in MAGELLAN Quellen für viele Eingabefelder auf den Formularen. Sie sollen Ihnen die Arbeit bei der Dateneingabe erleichtern. Daten, die nicht in den Schlüsselverzeichnissen hinterlegt wurden, stehen Ihnen für den Eintrag in das Formularfeld nicht zur Verfügung. Sie sollten also, wenn Sie anfangen mit MAGELLAN zu arbeiten, diese Verzeichnisse editieren und den Datenbestand für Ihre Anforderungen passend gestalten. Um die Schlüsselverzeichnisse aufzurufen, klicken Sie auf `Verzeichnisse` und dann auf `Weitere Schlüsselverzeichnisse`. Es öffnet sich das Dialogfenster `Schlüsselverzeichnisse`. Einige Schlüsselverzeichnisse wie etwa `Noten` oder `Fächer` sind dem Menüpunkt `Verzeichnisse` direkt untergeordnet.
+Diese Tabellen heißen Schlüsselverzeichnisse und sind in MAGELLAN Quellen für viele Eingabefelder auf den Formularen. Sie sollen Ihnen die Arbeit bei der Dateneingabe erleichtern. Daten, die nicht in den Schlüsselverzeichnissen hinterlegt wurden, stehen Ihnen für den Eintrag in das Formularfeld nicht zur Verfügung. Sie sollten also, wenn Sie anfangen mit MAGELLAN zu arbeiten, diese Verzeichnisse  durch den Import befüllen und ggfs. editieren und den Datenbestand für Ihre Anforderungen passend gestalten. Um die Schlüsselverzeichnisse aufzurufen, klicken Sie auf `Extras > Schlüsselverzeichnisse`. Es öffnet sich das Dialogfenster `Schlüsselverzeichnisse`. 
 
 ![Editieransicht im Schlüsselverzeichnis Konfessionen](/assets/images/konf2.png)
 
@@ -73,6 +71,7 @@ Gehen Siewie folgt vor:
 Das Aussehen der Auswahlliste hat sich mit der Gruppierung verändert. Vor einer Klasse befindet sich jeweils ein Plus oder ein Minus. Wenn Sie auf das Plus klicken öffnet sich die Liste der Schüler, die in der Klasse sind. Klicken Sie auf das Minus, dann schließt sich die Liste der zugehörigen Schüler wieder.
 
 Bei einer Mehrfachgruppierung ziehen Sie nacheinander zwei Spaltenköpfe in den dunkleren Bereich. Die Gruppierung wird dann noch mal nach einem zweiten Gruppierungsaspekt untergliedert, so könnte man die Gruppierung nach Klassen z.B. noch mal nach dem Geschlecht gruppieren.
+
 ![Gruppierung](/assets/images/grupp.png)
 
 !!! info "Hinweis"
@@ -103,13 +102,13 @@ Erste gewünschte Zeile anklicken, ```Umschalt(Shift)``` halten, letze gewünsch
 
 #### alles Markieren
 
-Klicken Sie auf das kleine schwarze Kästchen unten links am Rand.
+Klicken Sie auf das kleine Kästchen unten links am Rand.
 
 ![alle Zeilen markieren](/assets/images/mark3.png)
 
 ### Filtern
 
-Seit der Version 6 können in MAGELLAN die Daten in allen Auswahllisten auch gefiltert werden. Die Filterfunktion kann im Spaltenkopf der zu filternden Spalte aufgerufen werden, es ist ebenfalls eine Mehrfachfilterung möglich.
+In MAGELLAN können die Daten in allen Auswahllisten gefiltert werden. Die Filterfunktion kann im Spaltenkopf der zu filternden Spalte aufgerufen werden, es ist ebenfalls eine Mehrfachfilterung möglich.
 
 ![Filtern nach dem Status `aktiv` und einer bestimmten Klasse](/assets/images/filt1.png)
 
