@@ -5,7 +5,7 @@ Diese Unterlagen fassen die in der Schulung MAGELLAN-Administrator behandelten T
 Hinweis | Bemerkung
 --------------- | ---------
 **Dauer:** | 6 x 45 min
-**Inhalt:** | - Installation, Deinstallation, Updates<br/>- neue Datenbank einrichten<br/>- Datenimporte über das Magellan-Importformat<br/>- Schlüsselverzeichnisse <br/>- Benutzerverwaltung<br/>- Sicherung und Datenbankpflege<br/>- Erstellen von MyMagellan-Dateien mit dem MyMagellan-Center
+**Inhalt:** | - Installation, Deinstallation, Updates<br/>- neue Datenbank einrichten<br/>- Datenaustausch über das Magellan-Importformat<br/>- Schlüsselverzeichnisse <br/>- Benutzerverwaltung<br/>- Sicherung und Datenbankpflege<br/>- Erstellen von MyMagellan-Dateien mit dem MyMagellan-Center
 **Zielgruppe:** | Schuladministratoren
 **Ablauf**:|09:30 – 11:00 Uhr  <br/>11:15 – 12:45 Uhr<br/>13:30 - 14:15 Uhr
 
@@ -13,63 +13,65 @@ Hinweis | Bemerkung
 
 !!! info "Hinweis"
 
-     Bitte beachten Sie die ausführliche Beschreibung der [Installation](https://doc.magellan7.stueber.de/installation/). 
+     Bitte beachten Sie die ausführliche Beschreibung der [Installation](https://doc.magellan7.stueber.de/schulverwaltung/installation/). 
 
 ### Systemvoraussetzungen
 
-MAGELLAN ist kompatibel mit folgenden Betriebssystemen:
+Quelle: [https://doc.magellan7.stueber.de/schulverwaltung/installation/systemvoraussetzungen/](https://doc.magellan7.stueber.de/schulverwaltung/installation/systemvoraussetzungen/)
+|MAGELLAN| Kompatibilität|
+--|--|
+|**Betriebssystem 32-Bit**|Windows  Vista / Windows  2008 / Windows  7 / Windows  8 / Windows  10 |
+|**Betriebssystem 64-Bit**|Windows 7 /8/10/  Windows 8 /  Windows 10 /  Windows2008 /  Windows 2012 /  Windows 2016 |
+|**Office-Versionen**|Office  2007<br/>Office 2010<br/>Office 2013<br/>Office 2016|
+|**Hardware**|MAGELLAN benötigt keine besonderen Hardware-Anforderungen|
+|**Bildschirmauflösung**|Die Bildschirmauflösung sollte 1280x800 Bildpunkte nicht unterschreiten|
 
-* Windows XP / 2003 / Vista / 2008 / 7 / 8 / 10 (32-Bit)
-* Windows 7 / 8 / 2008 / 2012 / 2016 (64-Bit)
+### Erstinstallation von MAGELLAN
 
-Es werden folgende Office-Versionen für das Erstellen von Serienbriefen unterstützt:
-
-* Office 2003 / 2007 / 2010 / 2013 / 2016 (ab Version 6.5)
-
-MAGELLAN benötigt keine besonderen Hardware-Anforderungen, lediglich die Bildschirmauflösung sollte 1024 x 768 Bildpunkte nicht unterschreiten.
-
-### Erstinstallation von MAGELLAN 6
-
-Dieser Abschnitt beschreibt die Installation von MAGELLAN 6 mit den einzelnen Installationsschritten und Installationsarten. Bitte beachten Sie die Systemvoraussetzungen.
+Dieser Abschnitt beschreibt die Installation von MAGELLAN mit den einzelnen Installationsschritten und Installationsarten. Bitte beachten Sie die Systemvoraussetzungen.
 
 * Installation von Firebird
 * Installation von MAGELLAN
 * Serverinstallation
 * Arbeitsplatzinstallation
 * Einzelplatzinstallation
-* MAGELLAN 6 starten nach Neuinstallation
+* Magellan 7 starten nach Neuinstallation
 
-### Installation von Firebird 2.5
+### Installation von Firebird
 
-Laden Sie bitte das Firebird-Installationspaket von [aus dem Downloadbereich unserer Webseiten](http://magellan.stueber.de/download.php). Starten Sie anschließend die Firebird Installation durch einen Doppelklick auf die Datei ``Firebird-2.5.5....Win32.exe``. Bitte übernehmen Sie im daraufhin startenden Installationsassistenten auf der Karte `Komponenten auswählen` die voreingestellten Optionen.
+Laden Sie bitte das Firebird-Installationspaket von [aus dem Downloadbereich unserer Webseiten](http://magellan.stueber.de/download.php). Starten Sie anschließend die Firebird Installation durch einen Doppelklick auf die Datei ``Firebird-2.5.....Win32.exe``. Bitte übernehmen Sie im daraufhin startenden Installationsassistenten auf der Karte `Komponenten auswählen` die voreingestellten Optionen.
+
+!!! warning "Wichtig"
+
+    Bitte verwenden Sie keine abweichende Firebird-Version, sondern setzen die Ausgabe ein, die wir im Downloadbereich unserer Webseite zur Verfügung stellen!
 
 Auf der Karte `Zusätzliche Aufgaben auswählen` übernehmen Sie bitte die Optionen und aktivieren zusätzlich das Häkchen `Die Firebird Client-Bibliothek ins Systemverzeichnis kopieren`.
 
 !!! info "Hinweis"
 
-    Firebird sollte nur dem Rechner installiert werden, auf dem zukünftig die Datenbank gespeichert wird. Das kann Ihr Server sein oder auch ein netzwerkunabhängiger Rechner.
+    Firebird soll nur dem Rechner installiert werden, auf dem zukünftig die Datenbank gespeichert wird. Das kann Ihr Server sein oder auch ein netzwerkunabhängiger Rechner.
     
-    Firebird nutzt für den Datenverkehr den Port 3050, mitunter ist dieser Port durch die Windows Firewall gesperrt. Richten Sie bitte eine Ausnahme (Eingehende und Ausgehende Regel) für diesen Port ein und versuchen es bitte erneut.
+    Firebird nutzt für den Datenverkehr den Port 3050, mitunter ist dieser Port durch die Windows Firewall gesperrt. Richten Sie bitte eine Ausnahme (Eingehende und Ausgehende Regel) für diesen Port ein.
 
-### Installation von MAGELLAN 6
+### Installation von MAGELLAN
 
 Laden Sie bitte das MAGELLAN-Installationspaket [aus dem Downloadbereich unserer Webseiten](http://magellan.stueber.de/download.php). Starten Sie anschließend die Installation per Doppelklick auf die Datei ``Magellan6.msi``.
 
-Der Setup Assistent von MAGELLAN 6 wird gestartet und die Installationsdateien werden entpackt.
+Der Setup Assistent von Magellan 7 wird gestartet und die Installationsdateien werden entpackt.
 
 Wählen Sie die gewünschte Installationsart aus:
 
 Auswahl|Was passiert?
 ---|---
-*Server* |Der Datenbank-Server (Firebird) und alle weiteren Module werden auf einem Server installiert. Auf diesen befindet sich im Regelfall die MAGELLAN 6 Datenbank. Die einzelnen Arbeitsstationen, welche auf den Server zugreifen, werden mit der Art `Arbeitsplatz` installiert.
-*Einzelplatz* |Der Datenbank-Server und alle weiteren Module werden auf einem Rechner installiert. Sie entspricht der Serverinstallation im Netz und wird daher über die gleiche Option ausgewählt.
-*Arbeitsplatz* |Es wird ein Arbeitsplatz in Netzwerk installiert. Dazu werden nur die Anwendungsdaten und der Datenbank-Client installiert, jedoch nicht Datenbank, Berichte oder Skripte. Eine Arbeitsplatzinstallation setzt eine Serverinstallation voraus. Firebird darf auf diesem Arbeitsplatz nicht installiert sein.
+**Server** |Der Datenbank-Server (Firebird) und alle weiteren Module werden auf einem Server installiert. Auf diesen befindet sich im Regelfall die Magellan 7 Datenbank. Die einzelnen Arbeitsstationen, welche auf den Server zugreifen, werden mit der Art `Arbeitsplatz` installiert.
+**Einzelplatz** |Der Datenbank-Server und alle weiteren Module werden auf einem Rechner installiert. Sie entspricht der Serverinstallation im Netz und wird daher über die gleiche Option ausgewählt.
+**Arbeitsplatz** |Es wird ein Arbeitsplatz in Netzwerk installiert. Dazu werden nur die Anwendungsdaten und der Datenbank-Client installiert, jedoch nicht Datenbank, Berichte oder Skripte. Eine Arbeitsplatzinstallation setzt eine Serverinstallation voraus. Firebird darf auf diesem Arbeitsplatz nicht installiert sein.
 
-Die weiteren Beschreibungen finden Sie in den nachfolgenden Abschnitten `Serverinstallation`, `Arbeitsplatzinstallation` und `Einzelplatzinstallation.
+Die weiteren Beschreibungen finden Sie in den nachfolgenden Abschnitten `Serverinstallation`, `Arbeitsplatzinstallation` und `Einzelplatzinstallation`.
 
 !!! info "Hinweis"
 
-    Die Installation des Datenbankservers (Firebird) wird für die Installationsarten Server und Einzelplatz vorausgesetzt.
+    Die Installation des Datenbankservers (Firebird) wird für die Installationsart `Server-/ Einzelplatzinstallation` vorausgesetzt.
 
 ### Serverinstallation
 
@@ -87,39 +89,30 @@ Nach Abschluss der Installation befinden sich standardmäßig die Dateien in fol
 
 Anwendungsdaten (z.B. Magellan.exe):
 
-Betriebssystem | Pfad
---------------------| -------------
-Windows Vista | C:\Program Files\Stueber Systems\Magellan 6
-Windows XP | C:\Programme\Stueber Systems\Magellan 6
-Windows 2000 | C:\Programme\Stueber Systems\Magellan 6
-Windows 7 | C:\Programme\Stueber Systems\Magellan 6
-Windows Server 2008 | C:\Program Files (x86)\Stueber Systems\Magellan 6\
-Windows 8 | C:\Programme\Stueber Systems\Magellan 6
-Windows 10 | C:\Program Files (x86)\Stueber Systems\Magellan 6\
+|Betriebssystem | Pfad|
+|--------------------| -------------|
+|Windows 7 /8/10| C:\Programme\Stueber Systems\Magellan 7  |
+|Windows Server 2008 | C:\Program Files (x86)\Stueber Systems\Magellan 7  |
+|Windows 8 | C:\Programme\Stueber Systems\Magellan 7  |
+|Windows 10 | C:\Program Files (x86)\Stueber Systems\Magellan 7  |
 
 Allgemeine Einstellungs- und Lizenzdaten (z.B. Magellan.evm, Magellan.lic, Magellan.SiteInfo, Magellan.UserInfo):
 
 Betriebssystem | Pfad
 --------------------| -------------
-Windows Vista | C:\ProgramData\Stueber Software\Magellan 6
-Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Magellan 6
-Windows 2000 | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Magellan 6
-Windows 7 | C:\ProgramData\Stueber Software\Magellan 6
-Windows Server 2008 | C:\ProgramData\Stueber Software\Magellan 6
-Windows 8 | C:\ProgramData\Stueber Software\Magellan 6
-Windows 10 | C:\ProgramData\Stueber Software\Magellan 6
+Windows 7 /8/10| C:\ProgramData\Stueber Systems\Magellan 7
+Windows Server 2008 | C:\ProgramData\Stueber Systems\Magellan 7
+Windows 8 | C:\ProgramData\Stueber Systems\Magellan 7
+Windows 10 | C:\ProgramData\Stueber Systems\Magellan 7
 
 Datenordner (Vorlagen, Skripte, Importe, Dokumente, Berichte, Datenordner):
 
 Betriebssystem | Pfad
 --------------------| -------------
-Windows Vista | C:\Users\Public\Documents\Stueber Systems\Magellan 6
-Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 6
-Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Systems\Magellan 6
-Windows 7 | C:\Users\Public\Documents\Stueber Systems\Magellan 6
-Windows Server 2008 | C:\ProgramData\Documents\Stueber Systems\Magellan 6
-Windows 8 | C:\Users\Public\Documents\Stueber Systems\Magellan 6
-Windows 10 | C:\Users\Public\Documents\Stueber Systems\Magellan 6
+Windows 7 /8/10| C:\Users\Public\Documents\Stueber Systems\Magellan 7
+Windows Server 2008 | C:\ProgramData\Documents\Stueber Systems\Magellan 7
+Windows 8 | C:\Users\Public\Documents\Stueber Systems\Magellan 7
+Windows 10 | C:\Users\Public\Documents\Stueber Systems\Magellan 7
 
 Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren.
 
@@ -131,9 +124,9 @@ Im Unterschied zur Serverinstallation werden bei der Arbeitsplatzinstallation nu
 
 Die Einzelplatzinstallation entspricht der Serverinstallation.
 
-### Magellan 6 starten nach Neuinstallation
+### Magellan starten
 
-Nach Beenden des Setup Assistenten müssen Sie MAGELLAN 6 starten. Es erscheint zunächst der Willkommen-Assistent.
+Nach Beenden des Setup Assistenten müssen Sie Magellan 7 starten. Es erscheint zunächst der Willkommen-Assistent.
 
 1. Klicken Sie auf `Weiter`. Um Magellan starten zu können, müssen Sie Ihre Lizenzdaten für eine Vollversion oder eine Testlizenz eingeben.
 
@@ -149,34 +142,28 @@ Nach Beenden des Setup Assistenten müssen Sie MAGELLAN 6 starten. Es erscheint 
 
 Bei der Auswahl `Entfernte Datenbank` werden Sie zur Eingabe des Servernamens und des Datenbank-Pfads aufgefordert.
 
-Geben Sie unter `Server` den Servernamen bzw. die IP-Adresse Ihres Servers ein, auf dem sich die MAGELLAN 6 Datenbank befindet. Im unteren Feld geben Sie den lokalen Serverpfad (aus Sicht des Servers) zur MAGELLAN 6 Datenbank an.
+Geben Sie unter `Server` den Servernamen bzw. die IP-Adresse Ihres Servers ein, auf dem sich die Magellan 7 Datenbank befindet. Im unteren Feld geben Sie den lokalen Serverpfad (aus Sicht des Servers) zur Magellan 7 Datenbank an.
 
-Der standardmäßige Pfad zur MAGELLAN 6 Datenbank lautet:
+Der standardmäßige Pfad zur Magellan 7 Datenbank lautet:
 
 Betriebssystem | Pfad
 --------------------| -------------
-Windows Vista | C:\Users\Public\Documents\Magellan 6\Datenbank\Magellan6.fdb
-Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software \Magellan 6\Datenbank\Magellan6.fdb
-Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\Magellan 6\Datenbank\Magellan6.fdb
-Windows 7 | C:\Users\Public\Documents\Stueber Software\Magellan 6\Datenbank\Magellan6.fdb
-Windows 2003 | C:\ProgramData\Documents\Stueber Software\Magellan 6\Datenbank\Magellan6.fdb
-Windows 2008 | C:\ProgramData\Documents\Stueber Software\Magellan 6\ Datenbank\Magellan6.fdb
+Windows 7 /8/10| C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Magellan7.fdb
+Windows 2003 | C:\ProgramData\Documents\Stueber Systems\Magellan 7\Datenbank\Magellan7.fdb
+Windows 2008 | C:\ProgramData\Documents\Stueber Systems\Magellan 7\ Datenbank\Magellan7.fdb
 
 Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren. Wenn Sie die Originaleinstellungen während der Installation beibehalten haben, trifft einer der oben gezeigten Datenbankpfade zu.
 
 ##### Lokale Datenbank
 
 Direkt auf dem Server oder einem Einzelplatz entscheiden Sie sich bitte für `Lokale Datenbank`. Sie werden dann zur Eingabe des Datenbankpfads aufgefordert.
-Der standardmäßige Pfad zur MAGELLAN 6 Datenbank lautet:
+Der standardmäßige Pfad zur Magellan 7 Datenbank lautet:
 
 Betriebssystem | Pfad
 --------------------| -------------
-Windows Vista | C:\Users\Public\Documents\Magellan 6\Datenbank\Magellan6.fdb
-Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Magellan 6\Datenbank\Magellan6.fdb
-Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber Software\Magellan 6\Datenbank\Magellan6.fdb
-Windows 7 | C:\Users\Public\Documents\Stueber Software\Magellan 6\Datenbank\Magellan6.fdb
-Windows Server 2003 | C:\ProgramData\Documents\Stueber Software\Magellan 6\Datenbank\Magellan6.fdb
-Windows Server 2008 | C:\ProgramData\Documents\Stueber Software\Magellan 6\Datenbank\Magellan6.fdb
+Windows 7 /8/10| C:\Users\Public\Documents\Stueber Systems\Magellan 7\Datenbank\Magellan7.fdb
+Windows Server 2003 | C:\ProgramData\Documents\Stueber Systems\Magellan 7\Datenbank\Magellan7.fdb
+Windows Server 2008 | C:\ProgramData\Documents\Stueber Systems\Magellan 7\Datenbank\Magellan7.fdb
 
 Die Pfade sind exemplarisch für die deutschen Versionen der Betriebssysteme und können je nach Sprache und Ausgabe des Betriebssystems variieren. Wenn Sie die Originaleinstellungen während der Installation beibehalten haben, trifft einer der bei-den oben gezeigten Beispielpfade zu.
 
@@ -185,7 +172,6 @@ Im folgenden Fenster werden die Verzeichnisse der Datenordner abgefragt. In der 
 !!! info "Hinweis"
 
     Wünschen Sie andere Pfade als die vorgegebenen, stellen Sie es bitte in diesem Assistentenfenster ein. Ein Serviceupdate nutzt immer nur die Pfade, die zum Zeitpunkt der Installation in diesem Fenster angelegt worden sind. Eine nachträgliche Änderung kann nur mit einer erneuten Installation erfolgen.
-
 
 Bestätigen Sie mit `Weiter` und klicken Sie auf `Starten`, um den Willkommen-Assistenten abzuschließen und MAGELLAN erstmalig zu starten.
 Geben Sie im Anmeldedialog bei Benutzer `sysdba` und als Kennwort `masterkey` ein.
@@ -214,11 +200,11 @@ Diese Dateien liegen je nach Betriebssystem an folgenden voreingestellten Speich
 
 Betriebssystem | Pfad
 --------------------| -------------
-Windows 2000 | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Magellan 6
-Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Magellan 6
-Windows Vista | C:\ProgramData\Stueber Software\Magellan 6
-Windows 7/8 | C:\ProgramData\Stueber Software\Magellan 6
-Windows Server 2008 | C:\ProgramData\Stueber Software\Magellan 6
+Windows 2000 | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 7
+Windows XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Systems\Magellan 7
+Windows Vista | C:\ProgramData\Stueber Systems\Magellan 7
+Windows 7/8 | C:\ProgramData\Stueber Systems\Magellan 7
+Windows Server 2008 | C:\ProgramData\Stueber Systems\Magellan 7
 
 Möchten Sie abweichende Speicherorte für diese Dateien angeben, zum Beispiel damit alle Magellan-Arbeitsplatzinstallationen auf dieselben Dateien zugreifen, sind folgende Schritte nötig:
 
@@ -275,9 +261,9 @@ Alternativ können Sie Ihre Lizenzdatei auch importieren. Eine Lizenzdatei erhal
 
 Betriebssystem | Pfad
 -------------- | ----
-Windows Vista | `C:\ProgramData\Stueber Software\Magellan 6`
-Windows XP | `C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Magellan 6`
-Windows 2000 | `C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Magellan 6`
+Windows Vista | `C:\ProgramData\Stueber Software\Magellan 7`
+Windows XP | `C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Magellan 7`
+Windows 2000 | `C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber Software\Magellan 7`
 
 Um eine `Magellan.lic`-Datei zu importieren, führen Sie bitte folgende Schritte aus:
 
@@ -365,8 +351,7 @@ Falls Sie den Aufruf in der Systemsteuerung nicht finden können, rufen Sie stat
 Starten Sie anschließend die Installation von Firebird per Doppelklick auf das Installationspaket und folgen dem Assistenten. Starten Sie anschließend den Firebird-Dienst wieder in der Systemsteuerung. Wenn Sie diese Version bereits einsetzen, dann fehlen noch die folgenden Schritte:
 
 1. Melden Sie sich auf dem Serverrechner als sysdba am Magellan-Administrator an. Es wird erkannt, dass die Datenbank nicht in der aktuellen Version vorliegt, daher wird der Administrator nur mit dem Punkt Datenbanksicherung geöffnet.
-2. Wählen Sie den Punkt ```Datensicherung > Sicherungskopie```, geben einen Pfad und einen Datennamen an.
-Beispiel: ```C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\Backup\2016-03-24.fbk``` Starten Sie die Sicherung!
+2. Wählen Sie den Punkt ```Datenbankverbindungen > Backup```, den Pfad haben Sie bereits beim Einrichten der Verbindung vergeben, den Namen vergibt MAGELLAN eigenständig. Starten Sie die Sicherung!
 3. Im Anschluss stellen Sie die Datensicherung wieder her, die `Echtdatenbank` kann dabei nicht überschrieben werden.
 4. Stoppen den Firebird-Dienst (Systemsteuerung > Firebird Server Manager).
 5. Tauschen die Echtdatenbank gegen die wiederhergestellte Datenbank aus und starten den Firebird-Dienst wieder.
@@ -411,19 +396,28 @@ Sollten nach dem Update die Skripte u.a. dennoch nicht aktuell sein, kann es dam
 
 Eventuell wurde bei der Installation kein oder nicht der korrekte Pfad zu dem Skripteordner erfasst. Bitte rufen Sie das Anmeldefenster des Administrators auf und wählen die folgende Einstellung:
 
-![Anmeldung](/assets/images/admin_ohne_anmeldung.jpg)
+![Anmeldung](/assets/images/02.png)
 
-Anschließend rufen Sie im Administrator den Punkt `Server-Verwaltung > Verbindungen verwalten > Starten > Verbindung markieren > Bearbeiten > Unterkarte Datenordner` auf. Steht dort der Pfad zum Ordner Skripte? Wenn nicht tragen Sie ihn bitte nach.
+Anschließend rufen Sie im Administrator den Punkt `Datenbankverbindungen` auf. Es wird eine Liste der existierenden Verbindungen gezeigt, starten Sie Ihre Verbindung per Doppelklick auf die Zeile. 
+Wählen dann in der Unterkarte den Punkt `Datenordner` aus.
+Steht dort der Pfad zum Ordner Skripte? Wenn nicht tragen Sie ihn bitte nach.
+
+![Verbindungen > Datenordner](/assets/images/03.png)
+
+!!! info "Hinweis"
+
+    Um zu prüfen, ob der Pfad korrekt und auch von Ihrem Rechner aus erreichbar ist, können Sie den Inhalt der Zeile `Skripte` in Ihre Zwischenablage kopieren, in die Adressleiste eines beliebigen Ordnerfensters kopieren und Enter drücken. Öffnet sich das Verzeichnis Skripte?
+
 Die Datenordner liegen je nach Betriebssystem bei unverändert übernommenen Installationspfaden an den nachfolgenden Stellen:
 (Pfad bitte jeweils um den Namen des Verzeichnisses ergänzen: Berichte, Skripte, Vorlagen, Importe, Dokumente, Datenbank) finden Sie unter:
 
 Betriebssystem | Standardpfad
 ------------------- | ------------
-Vista | C:\Users\Public\Documents\Magellan 6
-XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber S...\Magellan 6
-Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber S...\Magellan 6
-Windows 7 | C:\Users\Public\Documents\Stueber S...\Magellan 6
-Windows Server 2008 | C:\Users\Public\Documents\Stueber S...\Magellan 6
+Vista | C:\Users\Public\Documents\Magellan 7
+XP | C:\Dokumente und Einstellungen\All Users\Anwendungsdaten\Stueber S...\Magellan 7
+Windows 2000 | C:\Dokumente und Einstellungen\All Users\Dokumente\Stueber S...\Magellan 7
+Windows 7 /8/10| C:\Users\Public\Documents\Stueber S...\Magellan 7
+Windows Server 2008 | C:\Users\Public\Documents\Stueber S...\Magellan 7
 
 **zu 5.:**
 Wenn Sie Ihren Rechner mit einer bestehenden MAGELLAN-Installationauf Windows 10 aktualisieren, kann es passieren, dass beim Folgeupdate von Magellan die Datenordner vom Windows Installer nicht gefunden werden und keine neuen Bestandteile wie Skripte, Berichte usw abgelegt werden.
@@ -450,16 +444,16 @@ Ein Beispiel für eine Update-Infodatei:
 <UpdateInfo>
 <UpdatePackage
 Product=`Magellan6`
-ProductVersion=`6.0.174`
+ProductVersion=`7.0.14`
 SetupFileName=`magellan6.msi`
-SetupURL=`ftp://ftp.stueber.de/pub/bin/de/magellan/v6/magellan6.msi`
+SetupURL=`ftp://ftp.stueber.de/pub/bin/de/magellan/v7/magellan7.msi`
 SetupSize=`243156992` />
 </UpdateInfo>
 ```
 
 #### Anpassen der Clients
 
-Damit MAGELLAN weiß, dass es nicht auf unseren Internetseiten sondern in Ihrem Netzwerk nach neuen Updates suchen soll, müssen Sie bei allen Clients unter `Extras > Optionen > Auto-Update` den Pfad zu Ihrer Update-Infodatei eintragen.
+Damit MAGELLAN weiß, dass es nicht auf unseren Internetseiten sondern in Ihrem Netzwerk nach neuen Updates suchen soll, müssen Sie bei allen Clients in MAGELLAN unter `Datenbank > Optionen > Auto-Update` den Pfad zu Ihrer Update-Infodatei eintragen.
 
 [Update-Infodatei für MAGELLAN-Setup](http://magellan.stueber.de/download.php)
 
@@ -477,34 +471,31 @@ Nachfolgend beschreiben wir die Schritte beim Aktualisieren von 2.5.1/2.5.2 oder
 
 Bevor Sie mit Magellan in den Realbetrieb starten, hatten Sie das Programm sicher mit einer Beispieldatenbank zum Test installiert. Die nachfolgenden Schritte beschreiben, wie man von der Beispieldatenbank in den Echtbetrieb wechselt.
 
-1. Datenbankkopie sichern (Firebirdserver stoppen!)
-2. Datenbank leeren und Generatoren synchronisieren
-3. Schlüsselverzeichnisse einlesen
-4. Postleitzahlverzeichnis importieren
-5. Mandanten anpassen
-6. Zeiträume anlegen
+1. Verbindung zur leeren Datenbank einrichten
+2. Schlüsselverzeichnisse einlesen
+3. Postleitzahlverzeichnis importieren
+4. Mandanten anpassen
+5. Zeiträume anlegen
 
-### Datenbankkopie sichern
+### Leere Datenbank
 
-Dieser Schritt ist optional, aber vielleicht möchten Sie eine Kopie der Beispieldatenbank erhalten, um mit einer zweite Datenbankanbindung auf diese Datenbank zum Test zu verweisen?
-Stoppen Sie vor dem Kopieren bitte den Firebirdserver, entweder unter Verwaltung > Dienste oder über das Control in der Systemsteuerung. Kopieren Sie die Datenbank, vergeben für die Kopie einen eindeutigen Namen, zum Beispiel `Beispiel.fdb`, starten den Firebirdserver wieder und richten im Magellan Administrator eine zweite Verbindung ein, die auf diese Datenbank verweist. Fertig!
+Bei der erstmaligen Installation werden im Datenbank-Verzeichnis zwei Datenbanken abgelegt. Eine leere Datenbank und eine mit Beispieldaten gefüllte Datenbank. Sie haben vermutlich bis jetzt die Verbindung zur Beispieldatenbank verwendet um das Programm mit Testdaten anzusehen. Sie können jetzt den Verweis unter `Datenbankverbindungen > Doppelklick auf Ihre Verbindung > Datenbank` von `Magellan7_Beispiel.fdb` auf `Magellan7.fdb` abändern, dann greift die Verbindung auf die leere Datenbank zu.
 
-### Datenbank leeren und Generatoren synchronisieren
+!!! info "Hinweis"
 
-Melden Sie sich als sysdba am Magellan-Administrator an und wählen den Punkt Datenbankpflege > Datenbankinhalt löschen.
-Bitte leeren Sie auch das Postleitzahlverzeichnis und die Schlüsselverzeichnisse. Im Anschluss an den Assistenten startet automatisch die Aktion `Generatoren synchronisieren`. Hierbei werden in allen Tabellen die ID-Generatoren zurückgesetzt, damit zum Beispiel der erste neu angelegte Schüler auch die ID 1 erhält.
+    Eine "frische" leere Datenbank können Sie sich unter dem Punkt `Datenbankpflege > Mandanten kopieren > von 6 nach 7 > MAGELLAN Datenbank kopieren` über das Wolkensymbol unten links in der Fensterecke laden.
 
-![Leeren des Datenbankinhaltes](/images/db.leeren.png)
+![Leere Datenbank](/assets/images/04.png)
 
 ### Schlüsselverzeichnisse einlesen
 
-Importieren Sie im MAGELLAN Administrator anschließend unter ```Datenimporte > Schlüsselverzeichnisse importieren``` die Schlüsselverzeichnisse für Ihr Bundesland und Ihre Schulart ein.
+Importieren Sie im MAGELLAN Administrator anschließend unter ```Datenaustausch > Schlüsselverzeichnisse importieren``` die Schlüsselverzeichnisse für Ihr Bundesland und Ihre Schulart ein.
 
 ![Importieren der Schlüsselverzeichnisse](/assets/images/import.schl.png)
 
 ### Postleitzahlverzeichnis importieren
 
-Importieren Sie im MAGELLAN Administrator anschließend unter ```Datenimporte > Postleitzahlverzeichnisse importieren``` die Postleitzahlen.
+Importieren Sie im MAGELLAN Administrator anschließend unter ```Datenaustausch > Postleitzahlverzeichnisse importieren``` die Postleitzahlen.
 
 ![Importieren der Postleitzahlen](/assets/images/plz.png)
 
@@ -514,22 +505,21 @@ Starten Sie im Anschluss MAGELLAN und rufen die Ansicht ```Mandanten``` auf. Dop
 
 ### Zeiträume anlegen
 
-Öffnen Sie jetzt in MAGELLAN den Punkt Verzeichnisse > Zeiträume und legen ein neues Schuljahr (zwie neuen Halbjahre) über die Schaltfläche ```Schuljahre anlegen...``` an.
+Öffnen Sie jetzt in MAGELLAN den Punkt `Extras > Schlüsselverzeichnisse > Zeiträume` und legen ein neues Schuljahr (zwie neuen Halbjahre) über die Schaltfläche ```Schuljahre anlegen...``` an.
 
-![neues Schuljahr anlegen](/assets/images/zr.png)
+![neues Schuljahr anlegen](/assets/images/05.png)
 
-### Datenimporte über das Magellan-Importformat
+### Datenimport über das Magellan-Importformat
 
-Wir bieten für verschiedene Schulverwaltungsprogramme Schnittstellen an um Daten nach MAGELLAN übernehmen zu können. In der Regel ist das Vorgehen so, dass ein Konvertierungsassistent aus der Datenbasis des Altprogrammes Daten in unser MAGELLAN-Importformat konvertiert und Sie in einem zweiten Schritt diese Daten (csv-Format) über den Punkt ```Datenimport > Daten über MAGELLAN-Importformat``` importieren einlesen.
+Wir bieten für verschiedene Schulverwaltungsprogramme Schnittstellen an um Daten nach MAGELLAN übernehmen zu können. In der Regel ist das Vorgehen so, dass ein Konvertierungsassistent aus der Datenbasis des Altprogrammes Daten in unser MAGELLAN-Importformat konvertiert und Sie in einem zweiten Schritt diese Daten (csv-Format) über den Punkt `Datenaustausch > Daten über MAGELLAN-Importformat importieren` einlesen.
 
-Gibt es keine Schnittstelle zu dem bislang von Ihnen verwendeten Programm oder verwalten Sie Ihre Daten bisher in Access oder Excel, können Sie diese Daten auch auf unser MAGELLAN Importformat anpassen und in die Datenbank einlesen.
-Ausführlich informieren wir dazu im Dokument MAGELLAN-Import.
+Gibt es keine Schnittstelle zu dem bislang von Ihnen verwendeten Programm oder verwalten Sie Ihre Daten bisher in Access oder Excel, können Sie diese Daten auch auf unser MAGELLAN Importformat anpassen und in die Datenbank einlesen. Ausführlich informieren wir dazu im Dokument [MAGELLAN-Toolbox im Abschnitt MAGELLAN-Importformat](https://doc.magellan7-toolbox.stueber.de/importe/).
 
 ### Schlüsselverzeichnisse
 
 Wir liefern pro Region importierbare Schlüsselverzeichnisdateien mit. Die Menge der gelieferten Dateien richtet sich nach den Verzeichnisse, die wir MAGELLAN-intern benötigen plus den Verzeichnissen, die wir zum Beispiel für statistische Auswertungen von Ämtern geliefert bekommen.
 
-Da sich Schlüsselwerte inaktuell werden können, gibt es folgenden Ablauf beim Punkt ```Datenimport > Schlüsselverzeichnisse importieren```:
+Da sich Schlüsselwerte inaktuell werden können, gibt es folgenden Ablauf beim Punkt ```Datenaustausch > Schlüsselverzeichnisse importieren```:
 
 Nr.|Aktion
 --|--
@@ -540,7 +530,7 @@ Nr.|Aktion
 !!! info "Hinweis"
 
     Als Ergebnis haben Sie damit nur die korrekten Schlüssel als aktive Werte markiert, verkehrt, aber bereits verwendete Schlüssel bleiben in der Datenbank, werden aber als inaktiv gekennzeichnet.
-    Sie können auch eigene Werte über den Punkt ```Datenimport > Schlüsselverzeichnisse importieren``` einlesen. Sie müssten dafür lediglich die Benennung und den Aufbau der Schlüsselverzeichnisdateien berücksichtigen. Bitte lesen Sie dazu das Kapitel `Eigene Schlüsselverzeichnisse importieren` im Administrationsteil des MAGELLAN Benutzerhandbuchs.
+    Sie können auch eigene Werte über den Punkt ```Datenaustausch > Schlüsselverzeichnisse importieren``` einlesen. Sie müssten dafür lediglich die Benennung und den Aufbau der Schlüsselverzeichnisdateien berücksichtigen. Bitte lesen Sie dazu das Kapitel `Eigene Schlüsselverzeichnisse importieren` im Administrationsteil des MAGELLAN Benutzerhandbuchs.
 
 ## Benutzerverwaltung
 
@@ -567,66 +557,41 @@ Im MAGELLAN Administrator kommen Sie unter dem Punkt `Datensicherung` zu den Dat
 
 ### Sicherungskopie erstellen
 
-Klicken Sie auf dem Serverrechner auf Sicherungskopie erstellen, um eine Sicherung der Magellan-Datenbank durchführen zu können. Im Fenster `Sicherungskopie erstellen` müssen Sie zunächst im Auswahlfeld `Welche Datenbank soll überprüft werden?` einstellen, ob die Magellan-Datenbank oder das Magellan Datawarehouse gesichert werden soll. `Sicherungskopie erstellen` bezieht sich jeweils auf die Datenbank, an der Sie sich angemeldet haben.
+Öffnen Sie den Punkt `Datenbankverbindungen` und markieren die Zeile der Verbindung, deren Datenbank Sie sichern möchten. Wählen Sie anschließend die Schaltfläche `Backup` im Menüband aus, alternativ können Sie die gewählte Verbindung im Backup-Fenster auch noch anpassen.
+Melden Sie sich als sysdba mit dem entsprechenden Passwort an und klicken Sie auf `Starten`. Es wird eine Datensicherung im in den Verbindungseinstellungen hinterlegtem Backup-Verzeichnis angelegt.
 
-Wenn Sie die gewünschte Datenbank ausgewählt haben, klicken Sie bitte im Feld Dateiname der Sicherungskopie auf das kleine Lupensymbol. Es wird daraufhin ein Explorer geöffnet, in dem Sie den Speicherort der zu erstellenden Sicherungskopie auswählen können.
+!!! warning "Wichtig"
 
-![Sicherungskopie erstellen](/assets/images/sicherungsk.png)
-
-!!! info "Hinweis"
-
-     Da die Sicherung der Datenbank immer auf dem Serverrechner abgelegt wird, habe Sie von einem Client nicht die Möglichkeit, durch Anklicken des Lupensymbols den Pfad auszusuchen. Sie können lediglich manuell den entsprechenden Pfad für den Serverrechner eintragen. Auch müssen Sie die Endung `.fbk` an den Dateinamen anfügen. Wenn keinen Speicherort und keinen Dateityp angeben wird die Sicherungskopie ohne Dateiendung im Verzeichnis System32 abgelegt.
-
-Bei Dateiname geben Sie bitte eine Bezeichnung und einen Pfad Ihrer Wahl für diese Datei an, also beispielsweise `C:\Sicherung\Magellan6_011208.fbk`.
-
-Wählen Sie im Feld Dateityp aus `Sicherungskopien (\*.fbk)`. Somit wird automatisch beim Speichervorgang diese Endung ergänzt. In unserem Beispiel würde somit an einem von Ihnen gewählten Speicherort eine Datei angelegt mit dem Namen `Magellan6_011208.fbk`.
-Eine Sicherungskopie kann im laufenden Betrieb von Magellan durchgeführt werden.
-
-!!! info "Hinweis"
+    Das Verzeichnis muss bereits existieren und es kann aus Sicherheitsgründen nur eine Sicherung auf dem Rechner abgelegt werden, auf dem auch die Datenbank liegt. Den Sicherungsprozess selbst können Sie hingegen auch von Arbeitsstationen aus starten.
 
     Von der Sicherungskopie sind alle Dokumente, WordVorlagen und Berichte ausgenommen.
 
-#### Sicherungskopie wiederherstellen
+!!! info "Hinweis"
 
-Um eine bestehende Sicherungskopie wiederherstellen zu können, müssen Sie `Sicherungskopie wiederherstellen` wählen. Im Auswahlfeld Dateiname der Sicherungskopie kann man nun über das Lupensymbol den Explorer öffnen und hier die gewünschte Sicherungskopie (siehe `Sicherungskopie erstellen`) auswählen. Diese Sicherungskopie muss lokal auf dem Rechner liegen, an dem Sie den Rücksicherungsvorgang durchführen möchten. Der Vorgang gelingt nicht, wenn die Sicherungskopie in einem Netzwerkpfad abgespeichert wurde.
+    Eine Sicherungskopie kann im laufenden Betrieb von Magellan durchgeführt werden.
 
-Im Feld `Dateiname der neuen Datenbank` kann man nun über das Lupensymbol den Explorer öffnen und einen Speicherplatz bestimmen sowie einen Namen für die wiederherzustellende Datenbank vergeben, also beispielsweise `Magellan`. Bitte achten Sie darauf, dass Sie bei Dateityp auswählen `Datenbankdateien (\*.fdb)`. Somit wird automatisch beim Speichervorgang diese Endung ergänzt. In unserem Beispiel würde an einem von Ihnen gewählten Speicherort eine Datei angelegt mit dem Namen Magellan6.fdb. Wenn Sie die wiederherzustellende Datei so benennen wie die aktive Datenbank, also in der Regel Magellan6.fdb, dann können Sie als Speicherort nicht den Datenbankordner wählen, da hier ja bereits eine Datei namens Magellan6.fdb existiert. Ein Ersetzen dieser bereits vorhandenen Datenbank durch die gleichnamige Wiederherstellungskopie wird an dieser Stelle verhindert, da sie ja im Rahmen der Sicherungsaktion in diesem Moment im Zugriff ist.
+### Sicherungskopie wiederherstellen
+
+Öffnen Sie den Punkt `Datenbankverbindungen` und markieren die Zeile der Verbindung, deren Datenbank Sie eine Sicherung wiederherstellen möchten. Wählen Sie anschließend die Schaltfläche `Wiederherstellen` im Menüband aus, alternativ können Sie die gewählte Verbindung im Wiederherstellen-Fenster auch noch anpassen.
+Die Verbindung wählen Sie an der Stelle nur aus, damit auf den Backup-Ordner, den Sie der Verbindung zugewiesen haben, zugegriffen haben.
+
+Klicken Sie auf die in der Abbildung markierte Schaltfläche am Ende der Zeile `Sicherung`. Es öffnet sich das Verzeichnis mit Ihren Sicherungen, Sie wählen die wiederherzustellende Sicherung aus.
+
+![Verzeichnis mit der wiederherzustellenden Sicherung wählen](assets/images/06.png)
+
+Tragen Sie die Anmeldedaten für den sysdba ein und klicken Sie auf `Starten`. Es wird einen neue Datenbank aus Ihrer Backup-Datei erstellt, sie wird entsprechend des Names der Sicherung benannt und in dem Verzeichnis abgelegt, dass Sie in den Verbindungseinstellungen dafür eingestellt haben.
+
+!!! warning "Wichtig"
+
+    Die Sicherung überschreibt nie Ihre Produktivdatenbank, um Versehen zu vermeiden. An der Stelle würde eine Fehlermeldung ausgegeben werden.
 
 !!! info "Hinweis"
 
     Das Herstellen einer Sicherungskopie und anschließende Wiederherstellen dieser Sicherungskopie hat eine reparierende und zugleich komprimierende Funktion. Die wiederhergestellte Sicherungskopie ist stets kleiner als die Ausgangsdatenbank, da Lücken in der Datenbank beseitigt werden und so die Datenmenge `abgespeckt` wird. Wir empfehlen in Abständen die Realdatenbank mit einer wiederhergestellten Sicherung zu ersetzen. Bitte beachten Sie, dass beim Austausch der Datenbank immer der Firebird-Server gestoppt ist. Diesen Dienst können Sie stoppen und starten in der Systemsteuerung Ihres Servers im Aufruf Firebird Server Manager.
 
-#### Einbinden der Sicherung in den Windows Taskplaner
+!!! danger "Achtung"
 
-Sie können die Aktion `Datenbanksicherungskopie erstellen` mit in den Taskplaner des Serverrechners einbinden. Damit könnten Sie sicherstellen, dass diese Aktion automatisch einmal täglich ausgeführt wird. Gehen Sie dafür bitte folgendermaßen vor:
-
-Bitte erstellen Sie mit dem Texteditor eine neue Datei und kopieren den nachfolgenden Text hinein. Bitte beachten Sie, dass die Pfade bei Ihrer Installation abweichen können:
-
-```
-
-`C:\Program Files (x86)\Firebird\Firebird_2_5\bin\gbak.exe` -v -t -user SYSDBA -password masterkey -y `C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\Backup\MAGELLAN6_%date:~0%.log` `C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\MAGELLAN6.FDB` `C:\Users\Public\Documents\Stueber Systems\Magellan 6\Datenbank\Backup\MAGELLAN6_%date:~0%.FBK` pause`
-
-```
-
-Speichern Sie diesen Text und passen die drei Pfade den Gegebenheiten auf Ihrem Serverrechner an. Wir beschreiben nachstehend die Bedeutung der einzelnen Punkte:
-
-Hinweis | Bedeutung
----------- | -------------
-Pfad zur gbak.exe| Der erste Pfad führt zur gbak.exe, die die Datensicherung Ihrer Magellan6.fdb erstellt. Der von uns angebebene Pfad entspricht dem Standardinstallationspfad, könnte bei Ihnen aber abweichen.
--user und -password| Anschließend ist die Administratorenanmeldung an Ihrer Datenbank in der Datei enthalten, wenn Sie ein anderes Passwort verwenden, tragen Sie dieses anstelle von `masterkey`ein.
--y und Pfad|Dieser optionale Pfad legt Ihnen pro Sicherung eine Logdatei mit dem Tagesdatum mit den Meldungen an.
-Pfad und Dateiname der *.fdb|Der nachfolgende Pfad verweist auf Ihre Datenbank. Liegt Ihre Datenbank an anderer Stelle, passen Sie diesen Pfad bitte an.
-Ablagepfad der Sicherungskopie|Als letzte Information wird der Ablagepfad für die Sicherungskopie mit angegeben. Sie könnten sich einen gesonderten Unterordner `Backup` erstellen, müssten auf diesen dann im Pfad verweisen.
-Pfad und Dateiname der *.fbk| Der Dateiname wird automatisch mit Magellan6_aktuelles Datum.fbk angegeben. Durch das Datum im Namen wird sichergestellt, dass die Sicherungskopie des Vortages nicht täglich überschrieben wird.
-pause|Programmfenster im Vordergrund oder unsichtbar: Wenn Sie `pause` weglassen, dann läuft die Sicherung im Hintergrund ab, mit pause können Sie den Fortschritt im Vordergrund verfolgen. Wenn Sie eine Logdatei erstellen lassen, können Sie auf diesen Parameter verzichten.
-
-Wenn alle Angaben angepasst sind, speichern Sie die Datei und benennen sie anschließend in `MagellanBackup.bat`um. Legen Sie diese Datei bitte auf Ihrem Server im Datenbankordner ab.
-
-!!! info "Hinweis"
-
-    Führen Sie die Datei zum Test bitte per ```Doppelklick``` oder ```Rechtsklick > Ausführen``` aus.
-
-Klappte es? Dann richten Sie im Taskplaner bitte einen neuen Task ein, der täglich zu einer bestimmten Zeit diese Datei ausführt. Gehen Sie dazu auf dem Server unter: `Start > Programme > Zubehör > Systemprogramme > geplanteTasks`.
+    Sie können mit Hilfe einer Batchdatei, die in Abständen vom Windows Taskplaner ausgeführt wird, die Sicherung erstellen lassen. Die notwendigen Schritte beschreiben wir  hier: [https://doc.magellan7.stueber.de/schulverwaltung/admin/sicherung.windows.task/](https://doc.magellan7.stueber.de/schulverwaltung/admin/sicherung.windows.task/)
 
 ## Erstellen von MyMagellan-Dateien mit dem MyMagellan-Center
 

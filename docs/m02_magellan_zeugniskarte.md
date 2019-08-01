@@ -11,7 +11,7 @@ Hinweis         | Bemerkung
 
 ## Das Modul MAGELLAN Berichte
 
-Informationen zu Berichten veröffentlichen wir über das Modul MAGELLAN Berichte. Sie finden den Aufruf unter `Start > Programme > Stueber Systems > Magellan 6 Berichte`. 
+Informationen zu Berichten veröffentlichen wir über das Modul MAGELLAN Berichte. Sie finden den Aufruf unter `Start > Programme > Stueber Systems > Magellan Berichte`.
 Sie haben im Infomodul in der oberen Menüleiste die Möglichkeit nach der Region und der Art des Berichtes zu filtern.
 
 ![Filterung nach Region und Kategorie](/assets/images/fach16.png)
@@ -60,7 +60,7 @@ Mündlich|wird in NRW verwendet um zu markieren, dass die Note für die mündlic
 
 ### Schlüsselverzeichnis der Fächer
 
-Um das Fächerverzeichnis zu bearbeiten, klicken Sie auf `Verzeichnisse > Fächer`. Sie bearbeiten ein Fach, indem Sie im Verzeichnis in die gewünschte Spalte in die Zeile des Fachs klicken. Sie können dem Fach eine `Kategorie` und einen `Aufgabenbereich` zuweisen. Diese Informationen werden bei der Fachwahlüberprüfung und der Abiturqualifikationsberechnung benötigt.
+Um das Fächerverzeichnis zu bearbeiten, klicken Sie auf `Extras > Schlüsselverzeichnisse > Fächer`. Sie bearbeiten ein Fach, indem Sie im Verzeichnis in die gewünschte Spalte in die Zeile des Fachs klicken. Sie können dem Fach eine `Kategorie` und einen `Aufgabenbereich` zuweisen. Diese Informationen werden bei der Fachwahlüberprüfung und der Abiturqualifikationsberechnung benötigt.
 
 ![Verzeichnis der Fächer](/assets/images/fach2.png)
 
@@ -83,11 +83,11 @@ Gültig bis|grenzt den Gültigkeitsbereich eines Fachs ein (graue oder blaue Rau
 ## Arbeiten mit Fachtafeln
 
 Fachtafeln bestehen aus einer beliebigen Liste von Fächern und dienen der schnellen und bequemen Zuweisung von Fächern sowohl für einzelne Schüler als auch für ganze Klassen.
-Um eine Fachtafel zuweisen zu können, müssen sie diese vorab im Schlüsselverzeichnis der Fachtafeln anlegen. Dieses finden Sie unter Menü `Verzeichnisse > Fachtafeln`. In der Registerkarte `Fachtafeln` sehen Sie alle bereits definierten Fachtafeln. 
+Um eine Fachtafel zuweisen zu können, müssen sie diese vorab im Schlüsselverzeichnis der Fachtafeln anlegen. Dieses finden Sie unter Menü `Extras > Schlüsselverzeichnisse > Fachtafeln`. In der Registerkarte `Fachtafeln` sehen Sie alle bereits definierten Fachtafeln.
 
-![Verzeichnis der Fachtafeln, Übersicht der Fachtafeln](../images/fach3.png)
+![Verzeichnis der Fachtafeln, Übersicht der Fachtafeln](/assets/images/fach3.png)
 
-Geben Sie zunächst Kürzel und Bezeichnung der Fachtafel ein und weisen dieser anschließend auf der Registerkarte `Fachtafel-Fächer` die entsprechenden Fächer zu. Hier öffnen Sie in der Spalte `Fächer` den Auswahlschalter und klicken ein Fach aus der Liste (`Verzeichnisse > Fächer`) an.
+Geben Sie zunächst Kürzel und Bezeichnung der Fachtafel ein und weisen dieser anschließend auf der Registerkarte `Fachtafel-Fächer` die entsprechenden Fächer zu. Hier öffnen Sie in der Spalte `Fächer` den Auswahlschalter und klicken ein Fach aus der Liste (`Extras > Schlüsselverzeichnisse > Fächer`) an.
 
 ![Verzeichnis der Fachtafeln, Inhalt einer Fachtafel](/assets/images/fach4.png)
 
@@ -188,7 +188,7 @@ Feld| Bedeutung
 ---|---
 ID|wird von MAGELLAN beim Speichern automatisch gefüllt
 Bezeichnung|Tragen Sie hier eine für Ihre Kollegen gut verständliche Bezeichnung Ihrer Wahl ein, zum Beispiel "Halbjahreszeugnis"
-Typ|Je an Ihrer Schule verwendeter Papiervorlage vergeben Sie bitte eine Ziffer. Ordnen Sie hier die zum Zeugnis gehörige Papiervorlage in Form der Ziffer zu. Der Ausdruckende muss später nur die von Ihnen zugeordnete Ziffer pro Papiervorlage wissen.<br/><br/>Beispiel: A4-Vorlage belegen Sie mit der Ziffer 4, A3-Vorlagen mit der 3.
+Typ|Je an Ihrer Schule verwendeter Papiervorlage vergeben Sie bitte eine Ziffer. Ordnen Sie hier die zum Zeugnis gehörige Papiervorlage in Form der Ziffer zu. Der Ausdruckende muss später nur die von Ihnen zugeordnete Ziffer pro Papiervorlage wissen.<br/><br/> Beispiel: A4-Vorlage belegen Sie mit der Ziffer 4, A3-Vorlagen mit der 3.
 Datei|Weisen Sie hier die Berichtsdatei zu. Sie können auch Dateien mehrfach im Verzeichnis verwenden. <br/><br/>Beispiel: die Berichtsdatei für das Halbjahres- und das Jahreszeugnis gibt dynamisch die Bezeichnung aus, für die Kollegen möchten Sie aber zwischen Halbjahres- und Jahreszeugnis unterscheiden. Legen Sie zwei Zeilen (Halbjahres- und Jahreszeugnis) an, weisen aber beiden dieselbe Datei zu.
 
 #### Exportfunktion
@@ -200,9 +200,9 @@ Zum Exportieren der Daten in das HTML-Format, klicken Sie in der Menüleiste auf
 
 ## Berichte drucken
 
-Sie drucken Listen bzw. Formulare, indem Sie in die entsprechende Auswahlliste wechseln und dort die gewünschten Einträge markieren, für die ein Bericht gedruckt werden soll. 
+Sie drucken Listen bzw. Formulare, indem Sie in die entsprechende Auswahlliste wechseln und dort die gewünschten Einträge markieren, für die ein Bericht gedruckt werden soll.
 
-Wollen Sie z.B. einen Bericht für Schüler ausdrucken, dann müssen Sie einen oder mehrere Schüler in der Auswahlliste der Schüler markieren und dann mit der rechten Maustaste den Befehl `Bericht drucken` aufrufen. Es öffnet sich das Fenster `Bericht drucken`, in dem Sie den gewünschten Bericht auswählen können. Klicken Sie auf `Vorschau`, um den Bericht nur in der Vorschau zu öffnen. 
+Wollen Sie z.B. einen Bericht für Schüler ausdrucken, dann müssen Sie einen oder mehrere Schüler in der Auswahlliste der Schüler markieren und dann mit der rechten Maustaste den Befehl `Bericht drucken` aufrufen. Es öffnet sich das Fenster `Bericht drucken`, in dem Sie den gewünschten Bericht auswählen können. Klicken Sie auf `Vorschau`, um den Bericht nur in der Vorschau zu öffnen.
 
 !!! info "Hinweis"
 
@@ -232,6 +232,6 @@ Hier können Sie eigene Unterordner anlegen und die täglich verwendeten Bericht
 
 ## Dokumentenverwaltung
 
-Um alle Briefe, die Sie über Magellan an Schüler, Bewerber, Lehrer oder Personen gesendet haben, zu finden, markieren Sie den entsprechenden Datensatz, klicken Sie mit der rechten Maustaste darauf und wählen Sie Dokumente (`STRG+D`). Optional können Sie diesen Punkt auch über `Bearbeiten > Dokumente` aufrufen. Das Fenster `Dokumente von Person` (Person bezieht sich auf den Namen der markierten Person) öffnet sich. 
+Um alle Briefe, die Sie über Magellan an Schüler, Bewerber, Lehrer oder Personen gesendet haben, zu finden, markieren Sie den entsprechenden Datensatz, klicken Sie mit der rechten Maustaste darauf und wählen Sie Dokumente (`STRG+D`). Optional können Sie diesen Punkt auch über `Bearbeiten > Dokumente` aufrufen. Das Fenster `Dokumente von Person` (Person bezieht sich auf den Namen der markierten Person) öffnet sich.
 
 Hier können Sie alle Dokumente einsehen, indem Sie diese anklicken. Sie können auch manuell erstellte und bereits versendete Dokumente (z.B. Briefe) in die persönliche Dokumentenverwaltung importieren. Klicken Sie dazu auf das Symbol . Es öffnet sich das Fenster `Dokumente importieren`. Suchen Sie hier das gewünschte Dokument aus und klicken Sie auf `Öffnen`. Das ausgewählte Dokument erscheint ab sofort als weiteres Symbol in der persönlichen Dokumentenverwaltung der ausgewählten Person.

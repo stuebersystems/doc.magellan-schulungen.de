@@ -100,7 +100,7 @@ Erste gewünschte Zeile anklicken, ```Umschalt(Shift)``` halten, letze gewünsch
 
 ![einen Zeilenblock markieren](/assets/images/mark2.png)
 
-#### alles Markieren
+#### Alles Markieren
 
 Klicken Sie auf das kleine Kästchen unten links am Rand.
 
@@ -128,16 +128,15 @@ Die in den jeweiligen Auswahllisten enthaltenen Spalten können von Ihnen ein- u
 
 ## Statusspalte
 
-Die unterschiedlichen Status (Rautezeichen) spiegeln den Zeitraumbezug wider. Diese Markierungen werden für den jeweiligen Schüler in allen Zeiträumen gleich gezeigt.
+Die unterschiedlichen Status spiegeln den Zeitraumbezug wider. Diese Markierungen werden für den jeweiligen Schüler in allen Zeiträumen gleich gezeigt.
 
 Ein Beispiel:
-Schaut man sich die Daten eines Schülers in einem älteren Zeitraum in der Datenbank an, zeigt das blaue oder graue Symbol an, ob der Schüler aktuell noch Schüler Ihrer Schule ist oder bereits ausgeschult wurde.
-
-Symbol|Bedeutung
---|--
-Kein Symbol| Noch nicht eingeschult, `Vagabund`, Schüler ist in allen Zeiträumen sichtbar
-Blaue Raute| Aktiver Schüler
-Graue Raute| Ausgeschulter Schüler
+Schaut man sich die Daten eines Schülers in einem älteren Zeitraum in der Datenbank an, zeigt das blau gefüllte oder ungefüllte Kreis an, ob der Schüler aktuell noch Schüler Ihrer Schule ist oder bereits ausgeschult wurde.
+| Status                                  | Bedeutung                           |
+| --------------------------------------- | ----------------------------------- |
+| <img src="/assets/images/pausieren02.png"> | Aktiv, der Schüler besucht aktuell die Schule und wurde nicht ausgeschult |
+| <img src="/assets/images/pausieren03.png"> | Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und wurde ausgeschult |
+| <img src="/assets/images/pausieren04.png"> | Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult |
 
 ## Registerkarten
 
@@ -149,13 +148,18 @@ Sie müssen nicht alle Daten eintippen, sondern können sich an einigen Stellen 
 
     Für einige Felder der ersten Dátenkarten steht Ihnen eine Sammelzuweisung zur Verfügung. Sie finden sie aus den Menüpunkten ```Schüler oder Bewerber > Bearbeiten > Sammelzuweisung```.
 
+#### Bereich `Daten 1 > Familie`
+
+Ein neues Familienmitglied können Sie entweder im Rahmen der Aufnahme der Bewerber/Schüler erfassen oder direkt eingeben. Sie können auf die Menüpunkte Lehrer, Personen, Sorgeberechtigte oder Schüler verweisen. Nachdem Sie das Familienmitglied festgelegt haben, müssen Sie noch das `Verhältnis` und die `Benachrichtigungsart` zuordnen. Über die `Benachrichtigungsart` können Sie steuern, ob dieser Sorgeberechtigte z.B. bei Serienbriefen mit berücksichtigt werden soll oder nicht.
+
+### Registerkarte `Daten 2`
+
+Man kann hier u.a. aus dem Menü der Schulen bereits besuchte Schulen hinzufügen. `Zugang am` wird automatisch gesetzt, wenn der Schüler an Ihrer Schule eingeschult wird. `Voraus. Ende` ist manuell einzutragen. `2. Zugang am` wird z.B. benötigt, wenn eine Schülerin nach dem Mutterschutz zurückkehrt.
+
 ### Registerkarte `Daten 3`
 
 Stellt man den Auskunftsstatus `Geheim` ein, so erscheint in allen Registerkarten des Schülers ein rotes Symbol `Geheim`, damit z.B. die Sekretärin erkennt, dass sie keine Informationen zum Schüler herausgeben darf. Zudem wird der Datensatz in der Auswahlliste mit roter Schrift angezeigt.
-
-### Registerkarte `Zugang/Abgang`
-
-Man kann hier u.a. aus dem Menü der Schulen bereits besuchte Schulen hinzufügen. `Zugang am` wird automatisch gesetzt, wenn der Schüler an Ihrer Schule eingeschult wird. `Voraus. Ende` ist manuell einzutragen. `2. Zugang am` wird z.B. benötigt, wenn eine Schülerin nach dem Mutterschutz zurückkehrt.
+Sind dem Schüler auch Sorgeberechtigte zugeordnet worden, wird angeboten, diese auch mit zu markieren.
 
 ### Registerkarte `Merkmale`
 
@@ -165,13 +169,10 @@ Man kann hier u.a. aus dem Menü der Schulen bereits besuchte Schulen hinzufüge
 
     Die Merkmalsfelder können unter `Verzeichnisse > Bezeichnungen` anpassen für die Datenbank umbenannt werden. Die Inhalten tragen Sie unter `Verzeichnisse > Merkmale` ein, bitte denken Sie daran auch für jeden erfassten Wert die Spalte `Bereich` zu füllen.
 
-### Registerkarte `Familie`
-
-Ein neues Familienmitglied können Sie entweder im Rahmen der Aufnahme der Bewerber/Schüler erfassen oder direkt eingeben. Sie können auf die Menüpunkte Lehrer, Personen, Sorgeberechtigte oder Schüler verweisen. Nachdem Sie das Familienmitglied festgelegt haben, müssen Sie noch das `Verhältnis` und die `Benachrichtigungsart` zuordnen. Über die `Benachrichtigungsart` können Sie steuern, ob dieser Sorgeberechtigte z.B. bei Serienbriefen mit berücksichtigt werden soll oder nicht.
-
 ### Registerkarte `Ausbildung`
 
-Die Registerkarte `Ausbildung` wendet sich ausschließlich an Berufsbildende Schulen.
+Die Registerkarte `Ausbildung` ist sichtbar wenn die Lizenz für das Modul `Berufsbildende Schule` oder `Praktikumsbetriebe` erworben wurde.
+Es können hier beliebig viele Ausbildungsdatensätze pro Schüler erfasst werden. Der einzelen Eintrag kann den Ausbildungsbetrieb, ggfs. den Praxisbetrieb, Ausbilderkontaktdaten, den Beruf, den Bildungsgang, Vertragsdaten und weiteres enthalten. Ein Ausbildungsdatensatz kann als aktuelle Ausbildung des Schülers markiert werden.
 
 ### Registerkarte `Laufbahn`
 
@@ -191,7 +192,7 @@ Unter `Bearbeiten > Sammelzuweisungen` können u.a. Konfessionen, Staatsangehör
 
 Der Zeitraumbezug in MAGELLAN spielt eine wichtige Rolle. Wenn Sie anfangen mit MAGELLAN zu arbeiten, sind noch keine Zeiträume definiert. Vor der eigentlichen Eingabe der anderen Daten in MAGELLAN müssen die notwendigen Zeiträume definiert werden.
 
-Ein Zeitraum ist definiert durch ein Anfangs- und ein Enddatum. Es handelt sich hier auch um ein Schlüsselverzeichnis, das Sie unter dem Menü `Verzeichnisse > Zeiträume` finden.
+Ein Zeitraum ist definiert durch ein Anfangs- und ein Enddatum. Es handelt sich hier auch um ein Schlüsselverzeichnis, das Sie unter dem Menü `Extras > Schlüsselverzeichnisse > Zeiträume` finden.
 
 ## Das Klassen-Menü
 
@@ -201,8 +202,8 @@ Um einen Schüler einschulen zu können, müssen zunächst in dem entsprechenden
 
 ## Schüler eingeben
 
-Um einen neuen Schüler aufzunehmen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf `Schüler` oder wählen Sie `Ansicht|Schüler`. Wählen Sie dann das Symbol
-in der oberen Symbolleiste oder `Bearbeiten|Neuer Datensatz`. Es öffnet sich das Dialogfenster `Neuer Schüler`.
+Um einen neuen Schüler aufzunehmen, klicken Sie in der Startleiste auf der linken Bildschirmseite auf `Schüler` oder wählen Sie `Ansicht > Schüler`. Wählen Sie dann das Symbol
+in der oberen Symbolleiste oder `Bearbeiten > Neuer Datensatz`. Es öffnet sich das Dialogfenster `Neuer Schüler`.
 
 ### Registerkarte `Schüler > Daten 1`
 
@@ -218,13 +219,13 @@ Nachdem Sie die Daten der neuen Schüler erfasst haben, müssen Sie diese einer 
 
 !!! info "Hinweis"
 
-    Alle Optionen, um einen Schüler in MAGELLAN zu bewegen, finden Sie unter dem Menü `Extras`.
+    Alle Optionen, um einen Schüler in MAGELLAN zu bewegen, finden Sie unter dem Menü `Laufbahnprozesse`.
 
 Gehen Sie wie folgt vor:
 
-1. Klicken Sie auf `Extras > Schüler einschulen`. Beim Schüler einschulen ist Ihnen ein Assistent behilflich.
+1. Klicken Sie auf `Laufbahnprozess > Schüler einschulen`. Beim Schüler einschulen ist Ihnen ein Assistent behilflich.
 2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.
-3. Unter `Schüler auswählen` werden alle Schüler aufgelistet, die noch nicht eingeschult worden sind. Bitte gehen Sie beim Einschulen klassenweise vor. Damit Sie die Schüler abhängig von bestimmten Eigenschaften, z.B. erster Fremdsprache oder Konfessionszugehörigkeit, einer Klasse zuweisen können, sind die entsprechenden Spalten hier ebenfalls angezeigt. Sie können die Spalten entsprechend denen der Gesamtliste bearbeiten. Haben Sie z.B. ein Einschulmerkmal vergeben (siehe `Registerkarte ` Daten 1`) können Sie danach gruppieren und alle Schüler, die Sie einer Klasse zuweisen möchten, auf einmal markieren und einschulen.
+3. Unter `Schüler auswählen` werden alle Schüler aufgelistet, die noch nicht eingeschult worden sind. Bitte gehen Sie beim Einschulen klassenweise vor. Damit Sie die Schüler abhängig von bestimmten Eigenschaften, z.B. erster Fremdsprache oder Konfessionszugehörigkeit, einer Klasse zuweisen können, sind die entsprechenden Spalten hier ebenfalls angezeigt. Sie können die Spalten entsprechend denen der Gesamtliste bearbeiten. Haben Sie z.B. ein Einschulmerkmal vergeben (siehe `Registerkarte` Daten 1`) können Sie danach gruppieren und alle Schüler, die Sie einer Klasse zuweisen möchten, auf einmal markieren und einschulen.
 4. Markieren Sie die Schüler, die Sie z.B. der Klasse 1a zuweisen möchten und klicken Sie auf `Weiter`.
 5. Unter `Weitere Angaben` können Sie weitere Angaben per Sammelzuweisung allen ausgewählten Schülern zuordnen. Hierbei muss mindestens das Zugangsdatum angegeben werden.
 6. Klicken Sie jetzt auf `Weiter` und anschließend auf `Fertigstellen`, um die Einschulung der Schüler durchzuführen.
@@ -232,7 +233,7 @@ Führen Sie anschließend den Assistenten erneut aus, die gewählten Einstellung
 
 ### Schüler fortschreiben
 
-Mit `Extras > Schüler fortschreiben` befördert man die Schüler vom 1. Halbjahr ins 2. Halbjahr (welches vorhanden sein muss). Auch beim Schüler fortschreiben ist Ihnen ein Assistent behilflich. Da die Klassenzugehörigkeit gleich bleibt, können Sie im Assistenten alle Schüler markieren, ohne gezielt nach Klasse gruppieren zu müssen. Sie können optional angeben, ob auch der Tutor fortgeschrieben werden soll. Nach dem Fortschreiben sind alle markierten Schüler im 2. Halbjahr. Den Klassen wurde automatisch dieser Zeitraum hinzugefügt.
+Mit `Laufbahnprozess > Schüler fortschreiben` befördert man die Schüler vom 1. Halbjahr ins 2. Halbjahr (welches vorhanden sein muss). Auch beim Schüler fortschreiben ist Ihnen ein Assistent behilflich. Da die Klassenzugehörigkeit gleich bleibt, können Sie im Assistenten alle Schüler markieren, ohne gezielt nach Klasse gruppieren zu müssen. Sie können optional angeben, ob auch der Tutor fortgeschrieben werden soll. Nach dem Fortschreiben sind alle markierten Schüler im 2. Halbjahr. Den Klassen wurde automatisch dieser Zeitraum hinzugefügt.
 
 ### Schüler versetzen
 
@@ -240,7 +241,7 @@ Bevor Sie versetzen, stellen Sie bitte sicher, dass die Zeiträume und die Zielk
 
 Das Versetzen der Schüler ist im Gegensatz zum bereits erwähnten Fortschreiben das Fortschreiben von Schülern in einen anderen Zeitraum und in eine andere Klasse.
 
-1. Einen Schüler versetzen Sie, indem Sie unter `Extras > Schüler versetzen` anklicken. Beim Schüler versetzen ist Ihnen ein Assistent behilflich. Klicken Sie jeweils auf Weiter, um zum nächsten Schritt des Assistenten zu kommen. Markieren Sie die Schüler einer Klasse, die Sie versetzen möchten, und klicken Sie auf `Weiter`.
+1. Einen Schüler versetzen Sie, indem Sie unter `Laufbahnprozess > Schüler versetzen` anklicken. Beim Schüler versetzen ist Ihnen ein Assistent behilflich. Klicken Sie jeweils auf Weiter, um zum nächsten Schritt des Assistenten zu kommen. Markieren Sie die Schüler einer Klasse, die Sie versetzen möchten, und klicken Sie auf `Weiter`.
 2. Unter `Klassen auswählen` werden die Klassen angezeigt, in die Sie die markierten Schüler versetzen können. Wählen Sie die Klasse aus, in die Sie die markierten Schüler versetzen möchten und klicken Sie auf `Weiter`.
 3. Geben Sie unter `Weitere Angaben` zusätzliche Merkmale an. Sie müssen dabei unter `Bisherige Klasse beendet am` und `Neue Klasse beginnt am` den letzten Schultag der alten und den ersten Schultag der neuen Klasse angeben. Optional können Sie hier Angaben zur Versetzung bzw. Wiederholung machen oder angeben, ob es sich um einen Überspringer handelt.
 
@@ -248,8 +249,8 @@ Das Versetzen der Schüler ist im Gegensatz zum bereits erwähnten Fortschreiben
 
 Das Wechseln von Schülern aus einer Klasse in eine andere Klasse geschieht innerhalb eines Zeitraumes. Sie können so Schüler innerhalb desselben Zeitraumes in eine andere Klasse wechseln. Es kann die unterschiedlichsten Gründe geben, dass man einen Schüler querversetzen muss. Achten Sie darauf, dass Sie sich in dem Halbjahr befinden, in dem Sie einen oder mehrere Schüler wechseln möchten.
 
-1. Klicken Sie dazu auf `Extras > Schüler wechseln`. Beim Schüler wechseln ist Ihnen ein Assistent behilflich.
-2. Markieren Sie die Schüler, die Sie wechseln möchten. Klicken Sie auf `Weiter`, wählen Sie die entsprechende Klasse aus, in die der Schüler wechseln soll. 
+1. Klicken Sie dazu auf `Laufbahnprozess > Schüler wechseln`. Beim Schüler wechseln ist Ihnen ein Assistent behilflich.
+2. Markieren Sie die Schüler, die Sie wechseln möchten. Klicken Sie auf `Weiter`, wählen Sie die entsprechende Klasse aus, in die der Schüler wechseln soll.
 3. Klicken Sie auf `Weiter`, hier können Sie Angaben zur neu ausgewählten Klasse vornehmen. Sie müssen dabei unter `Bisherige Klasse beendet am` und `Neue Klasse beginnt am` noch den letzten Schultag der alten und den ersten Schultag der neuen Klasse angeben. Die weiteren Angaben sind optional.
 4. Klicken Sie jetzt auf `Weiter` und anschließend auf `Fertigstellen`, um das Wechseln der Schüler durchzuführen.
 
@@ -269,7 +270,7 @@ Schüler wechseln|ja|nein|ABS:<br/> Wechsel im Halbjahr in die Parallelklasse (5
 
 Schüler, die Ihre Schule verlassen, weil sie einen Abschluss erfolgreich erworben haben oder die Schule wechseln, werden in MAGELLAN ausgeschult. Ausgeschulte Schüler bleiben in der MAGELLAN-Datenbank. Die Schüler werden dann im nächsten Halbjahr nicht mehr angezeigt, Sie können aber jederzeit auf deren Daten zugreifen, indem Sie den in den jeweiligen Zeitraum wechseln.
 
-1. Klicken Sie auf `Extras > Schüler ausschulen`. Der Assistent `Schüler ausschulen` öffnet sich.
+1. Klicken Sie auf `Laufbahnprozess > Schüler ausschulen`. Der Assistent `Schüler ausschulen` öffnet sich.
 2. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen. Markieren Sie die Schüler, die Ihre Schule verlassen und klicken Sie auf `Weiter`.
 3. Unter `Weitere Angaben` können Sie das Abgangsdatum vermerken. Klicken Sie dann auf `Weiter` und dann auf `Fertigstellen`, um die markierten Schüler auszuschulen.
 
@@ -277,7 +278,7 @@ Die ausgeschulten Schüler werden nun speziell in der Auswahlliste der Schüler 
 
 ### Versehentlich eingeschult, versetzt, fortgeschrieben oder gewechselt
 
-Haben Sie versehentlich Fehler beim Fortschreiben, Versetzen oder Einschulen gemacht, können Sie über `Extras > Schüler korrigieren` Schüler in ihren Ausgangszustand im vergangenen Zeitraum zurücksetzen. Es öffnet sich der Assistent `Schüler korrigieren`.
+Haben Sie versehentlich Fehler beim Fortschreiben, Versetzen oder Einschulen gemacht, können Sie über `Laufbahnprozess > Schüler korrigieren` Schüler in ihren Ausgangszustand im vergangenen Zeitraum zurücksetzen. Es öffnet sich der Assistent `Schüler korrigieren`.
 
 1. Klicken Sie jeweils auf `Weiter`, um zum nächsten Schritt des Assistenten zu kommen.
 2. Unter `Schüler auswählen` können Sie den oder die Schüler markieren, die Sie versehentlich eingeschult, fortgeschrieben, gewechselt oder versetzt haben. Klicken Sie dann auf `Weiter`.
@@ -285,17 +286,17 @@ Haben Sie versehentlich Fehler beim Fortschreiben, Versetzen oder Einschulen gem
 
 ### Versehentlich ausgeschult
 
-Um einen Schüler, den Sie versehentlich ausgeschult haben, wieder in einen aktiven Schüler umzuändern, markieren Sie diesen Schüler bitte in der Registerkarte `Auswahl.` Bitte klicken Sie auf `Bearbeiten > Status zuweisen...`. Alternativ können Sie nach der Markierung des Schülers mit der rechten Maustaste den Menüpunkt `Status zuweisen...` anwählen. Es öffnet sich nun das Fenster `Status zuweisen...`. Im Auswahlfeld `Neuer Status` wird nun die Option `Aktive(r) Schüler` ausgewählt. Klicken Sie anschließend bitte auf `OK`. Das Statussymbol des Schülers wird wieder blau.
+Um einen Schüler, den Sie versehentlich ausgeschult haben, wieder in einen aktiven Schüler umzuändern, markieren Sie diesen Schüler bitte in der Registerkarte `Auswahl.` Bitte klicken Sie auf `Auswahlliste > Rechtsklick > Status zuweisen...`. Alternativ können Sie nach der Markierung des Schülers mit der rechten Maustaste den Menüpunkt `Status zuweisen...` anwählen. Es öffnet sich nun das Fenster `Status zuweisen...`. Im Auswahlfeld `Neuer Status` wird nun die Option `Aktive(r) Schüler` ausgewählt. Klicken Sie anschließend bitte auf `OK`. Das Statussymbol des Schülers wird wieder blau.
 
 ## Zeitraumübergreifende Suchfunktion
 
-Unter `Extras/Suchen` können Schüler, Bewerber, Lehrer, Sorgeberechtigte und Personen in der Datenbank gesucht werden. Die Groß- und Kleinschreibung ist dabei entscheidend. Als Suchergebnis wird, wenn man `Gehe zu` wählt, immer der aktuellste Zeitraum angezeigt, in dem z.B. der Schüler (zeitraumbezogen) war bzw. ist. Das Ergebnis kann nach Excel exportiert werden.
+Unter `Datenbank > Suchen` oder mit der Taste `F3` können Schüler, Bewerber, Lehrer, Sorgeberechtigte und Personen in der Datenbank gesucht werden. Die Groß- und Kleinschreibung ist dabei entscheidend. Als Suchergebnis wird, wenn man `Gehe zu` wählt, immer der aktuellste Zeitraum angezeigt, in dem z.B. der Schüler (zeitraumbezogen) war bzw. ist. Das Ergebnis kann nach Excel exportiert werden.
 
 ## Der Seriendruck
 
 In MAGELLAN können Sie ein Anschreiben an beliebig viele Personen erstellen, indem Sie die Seriendruckfunktionalität von MAGELLAN nutzen. Über eine Schnittstelle zu Microsoft Word können Sie auf Basis der Auswahllisten für Bewerber, Schüler, Lehrer, Klassen, Sorgeberechtigte, Betriebe, Personen, Adressen, Mandanten und Schulen Seriendrucke erzeugen.
 
-Microsoft Word wird dabei von MAGELLAN aus ferngesteuert, d.h. Sie müssen nicht MAGELLAN verlassen und Microsoft Word zuvor starten, um die Seriendruckfunktionalität nutzen zu können. Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Schüler in der Auswahlliste der Schüler. Rufen Sei den Assistenten per `STRG+W` auf oder wählen Sie `Bearbeiten > Seriendruck nach Word`.
+Microsoft Word wird dabei von MAGELLAN aus ferngesteuert, d.h. Sie müssen nicht MAGELLAN verlassen und Microsoft Word zuvor starten, um die Seriendruckfunktionalität nutzen zu können. Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Schüler in der Auswahlliste der Schüler. Rufen Sei den Assistenten per `STRG+W` auf oder wählen Sie `Start > Seriendruck nach Word`.
 
 !!! info "Hinweis"
 
@@ -309,7 +310,7 @@ Option | Was wird an Word übergeben?
 `An alle Sorgeberechtigten der markierten aktiven Schüler`|Es werden Schülerdaten, Klassendaten und Sorgeberechtigtendaten übergeben. <br/>Es entsteht pro Sorgeberechtigter ein Brief/Seriendruckdatensatz. <br/>Entscheidend dafür ist der Wert `Immer` im Feld `Benachrichtigung` unter `Schüler > Familie > Sorgeberechtigter editieren > Benachrichtigung` pro Sorgeberechtigtem.
 `An den aktuellen Betrieb der markierten Schüler`|Es werden Schülerdaten, Klassendaten und Betriebedaten übergeben. <br/>Es entsteht pro Schüler ein Brief/Seriendruckdatensatz. <br/Für die Auswahl des aktuellen Betriebs ist die Auswahl unter `Schüler > Ausbildung` im Feld `Ausbildung` am unteren Fensterrand entscheidend.
 
-Der Serienbriefassistent öffnet sich. Verfassen Sie ggf. den Serienbrief und fügen Sie die entsprechenden Seriendruckfelder ein. Um ein Worddokument als Vorlage für den MAGELLANseriendruck verfügbar zu machen, speichern Sie dieses Dokument unter `MAGELLAN\Vorlagen\Schüler (Sorgeberechtigte, Personen, Betriebe, Schulen, Lehrer...)` ab.
+Der Serienbriefassistent öffnet sich. Verfassen Sie ggf. den Serienbrief und fügen Sie die entsprechenden Seriendruckfelder ein. Um ein Worddokument als Vorlage für den MAGELLAN-Seriendruck verfügbar zu machen, speichern Sie dieses Dokument unter `MAGELLAN\Vorlagen\Schüler (Sorgeberechtigte, Personen, Betriebe, Schulen, Lehrer...)` ab.
 
 ### Eigene Serienbriefvorlagen in MAGELLAN einfügen
 
@@ -333,7 +334,9 @@ Zum Exportieren der Daten in das HTML-Format, klicken Sie in der Menüleiste auf
 
 Sie drucken Listen bzw. Formulare, indem Sie in die entsprechende Auswahlliste wechseln und dort die gewünschten Einträge markieren, für die ein Bericht gedruckt werden soll. Wollen Sie z.B. einen Bericht für Schüler ausdrucken, dann müssen Sie einen oder mehrere Schüler in der Auswahlliste der Schüler markieren und dann mit der rechten Maustaste den Befehl `Bericht drucken` aufrufen. Es öffnet sich das Fenster `Bericht drucken`, in dem Sie den gewünschten Bericht auswählen können. Klicken Sie auf `Vorschau`, um den Bericht nur in der Vorschau zu öffnen. Hinweis: Um Zeugnisse zu drucken, müssen Sie den bzw. die entsprechenden Schüler in der `Auswahlliste Schüler` markieren und dann mit der rechten Maustaste den Befehl `Zeugnisse drucken` wählen.
 
-Crystal Reports Berichte können optional nach Excel, Word oder ins PDF-Format exportiert werden (`Drucken/Seitenvorschau` und dann auf Brief-Symbol klicken)
+Crystal Reports Berichte können optional nach Excel, Word oder ins PDF-Format exportiert werden (`Drucken/Seitenvorschau` und dann auf das Export-Symbol klicken)
+
+![Crystal-Reports-Seitenvorschau: Export-Symbol](assets/images/01.png)
 
 ## Dokumentenverwaltung
 
