@@ -90,7 +90,7 @@ Nach Abschluss der Installation befinden sich standardmäßig die Dateien in fol
 Anwendungsdaten (z.B. Magellan.exe):
 
 |Betriebssystem | Pfad|
-|--------------------| -------------|
+|--| --|
 |Windows 7 /8/10| C:\Programme\Stueber Systems\Magellan 7  |
 |Windows Server 2008 | C:\Program Files (x86)\Stueber Systems\Magellan 7  |
 |Windows 8 | C:\Programme\Stueber Systems\Magellan 7  |
