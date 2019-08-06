@@ -132,8 +132,9 @@ Die unterschiedlichen Status spiegeln den Zeitraumbezug wider. Diese Markierunge
 
 Ein Beispiel:
 Schaut man sich die Daten eines Schülers in einem älteren Zeitraum in der Datenbank an, zeigt das blau gefüllte oder ungefüllte Kreis an, ob der Schüler aktuell noch Schüler Ihrer Schule ist oder bereits ausgeschult wurde.
-| Status                                  | Bedeutung                           |
-| --------------------------------------- | ----------------------------------- |
+
+|Status|Bedeutung|
+|--|--|
 | <img src="/assets/images/pausieren02.png"> | Aktiv, der Schüler besucht aktuell die Schule und wurde nicht ausgeschult |
 | <img src="/assets/images/pausieren03.png"> | Inaktiv, der Schüler besucht aktuell nicht mehr die Schule und wurde ausgeschult |
 | <img src="/assets/images/pausieren04.png"> | Pausierend, der Schüler besucht vorübergehend nicht die Schule, ist aber nicht ausgeschult |
