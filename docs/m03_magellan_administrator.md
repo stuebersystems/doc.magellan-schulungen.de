@@ -62,7 +62,7 @@ Der Setup Assistent von Magellan 7 wird gestartet und die Installationsdateien w
 Wählen Sie die gewünschte Installationsart aus:
 
 Auswahl|Was passiert?
----|---
+--|--
 **Server** |Der Datenbank-Server (Firebird) und alle weiteren Module werden auf einem Server installiert. Auf diesen befindet sich im Regelfall die Magellan 7 Datenbank. Die einzelnen Arbeitsstationen, welche auf den Server zugreifen, werden mit der Art `Arbeitsplatz` installiert.
 **Einzelplatz** |Der Datenbank-Server und alle weiteren Module werden auf einem Rechner installiert. Sie entspricht der Serverinstallation im Netz und wird daher über die gleiche Option ausgewählt.
 **Arbeitsplatz** |Es wird ein Arbeitsplatz in Netzwerk installiert. Dazu werden nur die Anwendungsdaten und der Datenbank-Client installiert, jedoch nicht Datenbank, Berichte oder Skripte. Eine Arbeitsplatzinstallation setzt eine Serverinstallation voraus. Firebird darf auf diesem Arbeitsplatz nicht installiert sein.
