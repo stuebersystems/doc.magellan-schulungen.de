@@ -18,6 +18,7 @@ Diese Unterlagen fassen die in der Schulung MAGELLAN-Administrator behandelten T
 ### Systemvoraussetzungen
 
 Quelle: [https://doc.magellan7.stueber.de/schulverwaltung/installation/systemvoraussetzungen/](https://doc.magellan7.stueber.de/schulverwaltung/installation/systemvoraussetzungen/)
+
 |MAGELLAN| Kompatibilität|
 --|--|
 |**Betriebssystem 32-Bit**|Windows  Vista / Windows  2008 / Windows  7 / Windows  8 / Windows  10 |
