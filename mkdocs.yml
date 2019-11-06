@@ -50,12 +50,11 @@ nav:
 - Allgemein: 
     - Überblick: index.md
 - M01 MAGELLAN Einführung:
-    - Organisatorisches: m01/ueberblick.md
-    - Einstieg: m01/einstieg.md
-    - Sortieren, Gruppieren...: m01/sortieren.md
-    - Registerkarten: m01/registerkarten.md
-    - Laufbahnprozesse: m01/laufbahnprozesse.md
-    - Druck, Dokumente: m01/druck.md
+    - Organisatorisches: m01/01.ueberblick.md
+    - Einstieg: m01/02.einstieg.md
+    - Laufbahnprozesse: m01/03.laufbahnprozesse.md
+    - Registerkarten: m01/04.registerkarten.md
+    - Druck, Dokumente: m01/05.druck.md
 - M02 MAGELLAN Zeugniskarte:
     - Organisatorisches: m02/ueberblick.md
 - M03 MAGELLAN Administrator:
