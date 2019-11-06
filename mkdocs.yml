@@ -47,7 +47,16 @@ plugins:
   
 # Navigation  
 nav:
-- Überblick: index.md
-- M01 - MAGELLAN Einführung: m01_magellan_einfuehrungsschulung.md
-- M02 - MAGELLAN Zeugniskarte: m02_magellan_zeugniskarte.md
-- M03 - MAGELLAN Administrator: m03_magellan_administrator.md
+- Allgemein: 
+    - Überblick: index.md
+- M01 MAGELLAN Einführung:
+    - Organisatorisches: m01/ueberblick.md
+    - Einstieg: m01/einstieg.md
+    - Sortieren, Gruppieren...: m01/sortieren.md
+    - Registerkarten: m01/registerkarten.md
+    - Laufbahnprozesse: m01/laufbahnprozesse.md
+    - Druck, Dokumente: m01/druck.md
+- M02 MAGELLAN Zeugniskarte:
+    - Organisatorisches: m02/ueberblick.md
+- M03 MAGELLAN Administrator:
+    - Organisatorisches: m02/ueberblick.md
