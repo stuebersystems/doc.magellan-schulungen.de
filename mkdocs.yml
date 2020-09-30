@@ -17,8 +17,9 @@ theme:
     custom_dir: 'theme'
     language: de
     direction:
-    feature:
-        tabs: true
+    features:
+        - navigation.tabs
+        - navigation.instant
     palette:
         primary: 'blue'
         accent: 'deep orange'
