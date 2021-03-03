@@ -16,8 +16,10 @@ theme:
     name: material
     custom_dir: overrides
     language: de
+    direction:
     features:
-        - instant
+        - navigation.tabs
+        - navigation.instant
     palette:
         primary: 'blue'
         accent: 'deep orange'
