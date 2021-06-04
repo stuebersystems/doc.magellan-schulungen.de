@@ -22,7 +22,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |:--|--|--|
 |09:00 – 10:30 Uhr<br/>10:45 – 12:15 Uhr<br/>12:45 - 14:15 Uhr<br/>14:30 - 15:15 Uhr|09:00 Uhr – 10:30 Uhr<br/>10:45 Uhr – 12:15 Uhr|09:00 Uhr – 10:30 Uhr<br/>10:45 Uhr – 12:15 Uhr<br/>12:45 Uhr – 14:15 Uhr|
 
-### P-M01 MAGELLAN Stammdaten- und Schülerverwaltung
+### Stammdaten- und Schülerverwaltung
 
 |P-M01 MAGELLAN Stammdaten- und Schülerverwaltung|
 |:--|
@@ -30,7 +30,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Zielgruppe: Mitarbeiter des Schulsekretariats|
 |Inhalte:<br/>- Zeitraumkonzept<br/>- Handling der Auswahllisten<br/>- Schlüsselverzeichnisse<br/>- Dateneingabefür Bewerber/Schüler<br/>- Schülerlaufbahn<br/>- Druck<br/>- Seriendruck<br/>- Dokumentenverwaltung
 
-### P-M02 MAGELLAN Zeugniskarte
+### Zeugniskarte
 
 |P-M02 MAGELLAN Zeugniskarte|
 |:--|
@@ -38,7 +38,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Zielgruppe: Zeugnisschreiber, Koordinatoren
 |Inhalte:<br/>- Fächereingabe<br/>- Fachtafelerstellung<br/>- Noteneingabe in MAGELLAN<br/>- Zeugnisbemerkungen<br/>- Modul MAGELLAN Berichte|
 
-### P-M03 MAGELLAN Administrator
+### Administrator
 
 |P-M03 MAGELLAN Administrator|
 |:--|
@@ -48,7 +48,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 
 ## **Onlineschulungen**
 
-### O-M01 MAGELLAN Stammdaten- und Schülerverwaltung
+### Stammdaten- und Schülerverwaltung
 
 |O-M01 MAGELLAN Stammdaten- und Schülerverwaltung|
 |:--|
@@ -64,7 +64,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Dauer: 120 Minuten|
 |Inhalte:<br/>- Voraussetzungen für Berichte<br/>- Berichte organisieren<br/>- Seriendruckschnittstelle zu MSWord<br/>- Dokumentenverwaltung|
 
-### O-M02 MAGELLAN Zeugniskarte
+### Zeugniskarte
 
 |O-M02 MAGELLAN Zeugniskarte|
 |:--|
@@ -79,7 +79,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Inhalt:
 <br/>- Vorbereitung für die Erstellung der mymx-Dateien<br/>- Verteilstrategie<br/>- Import der Daten nach MAGELLAN|
 
-### O-M03 MAGELLAN Administrator
+### Administrator
 
 |O-M03 MAGELLAN Administrator|
 |:--|
@@ -92,7 +92,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Dauer: 120 Minuten|
 |Inhalte:<br/>- Schlüsselverzeichnisse anpassen<br/>- Benutzerverwaltung<br/>- Sicherung und Datenbankpflege<br/>- Datenimporte über das MAGELLAN-Importformat<br/>- Erstellen von MyMAGELLAN-Dateien mit dem MyMAGELLAN-Center|
 
-### O-M04 Abiturmenü
+### Abiturmenü
 
 |O-M04 Abiturmenü|
 |:--|

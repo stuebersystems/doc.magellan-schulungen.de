@@ -55,7 +55,7 @@ plugins:
 # Navigation  
 nav:
 - Allgemein: 
-    - Überblick: index.md
+  - Überblick: index.md
   - M01 MAGELLAN Einführung:
     - Einstieg: m01/02.einstieg.md
     - Laufbahnprozesse: m01/03.laufbahnprozesse.md
