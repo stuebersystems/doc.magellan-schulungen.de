@@ -56,22 +56,22 @@ plugins:
 nav:
 - Allgemein: 
     - Überblick: index.md
-- M01 MAGELLAN Einführung:
+  - M01 MAGELLAN Einführung:
     - Einstieg: m01/02.einstieg.md
     - Laufbahnprozesse: m01/03.laufbahnprozesse.md
     - Registerkarten: m01/04.registerkarten.md
     - Druck, Dokumente: m01/05.druck.md
-- M02 MAGELLAN Zeugniskarte:
-    - Modul MAGELLAN BERICHTE: m02/02.modul.berichte.md
-    - Registerkarte Zeugnis: m02/03.register.zeugnis.md
-    - Drucken: m02/04.druck.md
-- M03 MAGELLAN Administrator:
-    - Installation: m03/02.installation.md
-    - Lizenz: m03/03.lizenz.md
-    - Deinstallation: m03/04.deinstallation.md
-    - Update: m03/05.update.md
-    - Neue Datenbank: m03/06.neue.db.md
-    - Import: m03/07.import.md
-    - Benutzerverwaltung: m03/08.benutzer.md
-    - Sichern: m03/09.sichern.md
-    - MyMAGELLAN CENTER: m03/10.mymag.md
+  - M02 MAGELLAN Zeugniskarte:
+      - Modul MAGELLAN BERICHTE: m02/02.modul.berichte.md
+      - Registerkarte Zeugnis: m02/03.register.zeugnis.md
+      - Drucken: m02/04.druck.md
+  - M03 MAGELLAN Administrator:
+      - Installation: m03/02.installation.md
+      - Lizenz: m03/03.lizenz.md
+      - Deinstallation: m03/04.deinstallation.md
+      - Update: m03/05.update.md
+      - Neue Datenbank: m03/06.neue.db.md
+      - Import: m03/07.import.md
+      - Benutzerverwaltung: m03/08.benutzer.md
+      - Sichern: m03/09.sichern.md
+      - MyMAGELLAN CENTER: m03/10.mymag.md
