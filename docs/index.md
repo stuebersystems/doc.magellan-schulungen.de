@@ -59,7 +59,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Inhalte:<br/>- Übersicht über Menüpunkte<br/>- neuen Zeitraum anlegen<br/>- Schlüsselverzeichnissekennenlernen<br/>- Sortieren, Gruppieren, Filtern<br/>- Sammelzuweisungen<br/>-zeitraumübergreifende Suche<br/>- Stammdaten erfassen (Bewerber, Schüler mit Sorgeberechtigten, ggfs. Ausbildungsdaten)|
 |**Teil 2/3**|
 |Dauer: 120 Minuten|
-|Inhalte:<br/>- Klassen anlegen (erstmalig und wiederkehrend)<br/>- Abläufe für ein neues Schuljahr (Schülereinschulen, Schüler ausschulen, Schüler versetzen)<br/>- Abläufe beim Halbjahreswechsel (Schülerfortschreiben)<br/>- Schüler wechseln|
+|Inhalte:<br/>- Klassen anlegen (erstmalig und wiederkehrend)<br/>- Abläufe für ein neues Schuljahr (Schüler einschulen, Schüler ausschulen, Schüler versetzen)<br/>- Abläufe beim Halbjahreswechsel (Schüler fortschreiben)<br/>- Schüler wechseln|
 |**Teil 3/3**|
 |Dauer: 120 Minuten|
 |Inhalte:<br/>- Voraussetzungen für Berichte<br/>- Berichte organisieren<br/>- Seriendruckschnittstelle zu MSWord<br/>- Dokumentenverwaltung|
