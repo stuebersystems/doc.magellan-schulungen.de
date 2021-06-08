@@ -56,7 +56,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Zielgruppe: Verwaltungsmitarbeiter|
 |**Teil 1/3**|
 |Dauer: 120 Minuten|
-|Inhalte:<br/>- Übersicht über Menüpunkte<br/>- neuen Zeitraum anlegen<br/>- Schlüsselverzeichnissekennenlernen<br/>- Sortieren, Gruppieren, Filtern<br/>- Sammelzuweisungen<br/>- zeitraumübergreifende Suche<br/>- Stammdaten erfassen<br/>(Bewerber, Schüler mit Sorgeberechtigten, ggfs. Ausbildungsdaten)|
+|Inhalte:<br/>- Übersicht über Menüpunkte<br/>- neuen Zeitraum anlegen<br/>- Schlüsselverzeichnisse kennenlernen<br/>- Sortieren, Gruppieren, Filtern<br/>- Sammelzuweisungen<br/>- zeitraumübergreifende Suche<br/>- Stammdaten erfassen<br/>(Bewerber, Schüler mit Sorgeberechtigten, ggfs. Ausbildungsdaten)|
 |**Teil 2/3**|
 |Dauer: 120 Minuten|
 |Inhalte:<br/>- Klassen anlegen (erstmalig und wiederkehrend)<br/>- Abläufe für ein neues Schuljahr<br/>(Schüler einschulen, Schüler ausschulen, Schüler versetzen)<br/>- Abläufe beim Halbjahreswechsel (Schüler fortschreiben)<br/>- Schüler wechseln|
