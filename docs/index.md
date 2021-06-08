@@ -44,7 +44,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |:--|
 |Dauer: 4*45 Minuten|
 |Zielgruppe: Schuladministratoren, Schulleitung, Koordinatoren
-|Inhalte:<br/>- Fächereingabe<br/>- Fachtafelerstellung<br/>- Noteneingabe in MAGELLAN<br/>- Zeugnisbemerkungen<br/>-Modul MAGELLAN Berichte<br/>- Installation und Updates<br/>- neue Datenbank einrichten<br/>- MAGELLAN-Importformat<br/>- Schlüsselverzeichnisse<br/>- Benutzerverwaltung<br/>- Sicherungund Datenbankpflege<br/>- MyMAGELLAN-Center|
+|Inhalte:<br/>- Installation und Updates<br/>- neue Datenbank einrichten<br/>- MAGELLAN-Importformat<br/>- Schlüsselverzeichnisse<br/>- Benutzerverwaltung<br/>- Sicherung und Datenbankpflege<br/>- MyMAGELLAN-Center|
 
 ## **Onlineschulungen**
 
@@ -56,10 +56,10 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Zielgruppe: Verwaltungsmitarbeiter|
 |**Teil 1/3**|
 |Dauer: 120 Minuten|
-|Inhalte:<br/>- Übersicht über Menüpunkte<br/>- neuen Zeitraum anlegen<br/>- Schlüsselverzeichnissekennenlernen<br/>- Sortieren, Gruppieren, Filtern<br/>- Sammelzuweisungen<br/>-zeitraumübergreifende Suche<br/>- Stammdaten erfassen (Bewerber, Schüler mit Sorgeberechtigten, ggfs. Ausbildungsdaten)|
+|Inhalte:<br/>- Übersicht über Menüpunkte<br/>- neuen Zeitraum anlegen<br/>- Schlüsselverzeichnissekennenlernen<br/>- Sortieren, Gruppieren, Filtern<br/>- Sammelzuweisungen<br/>- zeitraumübergreifende Suche<br/>- Stammdaten erfassen<br/>(Bewerber, Schüler mit Sorgeberechtigten, ggfs. Ausbildungsdaten)|
 |**Teil 2/3**|
 |Dauer: 120 Minuten|
-|Inhalte:<br/>- Klassen anlegen (erstmalig und wiederkehrend)<br/>- Abläufe für ein neues Schuljahr (Schüler einschulen, Schüler ausschulen, Schüler versetzen)<br/>- Abläufe beim Halbjahreswechsel (Schüler fortschreiben)<br/>- Schüler wechseln|
+|Inhalte:<br/>- Klassen anlegen (erstmalig und wiederkehrend)<br/>- Abläufe für ein neues Schuljahr<br/>(Schüler einschulen, Schüler ausschulen, Schüler versetzen)<br/>- Abläufe beim Halbjahreswechsel (Schüler fortschreiben)<br/>- Schüler wechseln|
 |**Teil 3/3**|
 |Dauer: 120 Minuten|
 |Inhalte:<br/>- Voraussetzungen für Berichte<br/>- Berichte organisieren<br/>- Seriendruckschnittstelle zu MSWord<br/>- Dokumentenverwaltung|
