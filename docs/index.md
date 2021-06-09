@@ -7,10 +7,10 @@ Folgende Schulungsthemen bieten wir an:
 
 Schulung|Präsenz|Online
 --|:--:|:--:
-Schulverwaltung und Stammdaten|**X**|**X**
-Zeugniskarte|**X**|**X**
-MAGELLAN Administrator|**X**|**X**
-Abiturmenü|-|**X**
+MAGELLAN Schulverwaltung|**X**|**X**
+MAGELLAN Zeugniskarte|**X**|**X**
+MAGELLAN Administration|**X**|**X**
+MAGELLAN Fachwahl und Abitur|-|**X**
 
 ## **Präsenzschulungen**
 
@@ -22,9 +22,9 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |:--|--|--|
 |09:00 – 10:30 Uhr<br/>10:45 – 12:15 Uhr<br/>12:45 - 14:15 Uhr<br/>14:30 - 15:15 Uhr|09:00 Uhr – 10:30 Uhr<br/>10:45 Uhr – 12:15 Uhr|09:00 Uhr – 10:30 Uhr<br/>10:45 Uhr – 12:15 Uhr<br/>12:45 Uhr – 14:15 Uhr|
 
-### Stammdaten- und Schülerverwaltung
+### Schulverwaltung
 
-|P-M01 MAGELLAN Stammdaten- und Schülerverwaltung|
+|P-M01 MAGELLAN Schulverwaltung|
 |:--|
 |Dauer: 7*45 Minuten|
 |Zielgruppe: Mitarbeiter des Schulsekretariats|
@@ -38,9 +38,9 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Zielgruppe: Zeugnisschreiber, Koordinatoren
 |Inhalte:<br/>- Fächereingabe<br/>- Fachtafelerstellung<br/>- Noteneingabe in MAGELLAN<br/>- Zeugnisbemerkungen<br/>- Modul MAGELLAN Berichte|
 
-### Administrator
+### Administration
 
-|P-M03 MAGELLAN Administrator|
+|P-M03 MAGELLAN Administration|
 |:--|
 |Dauer: 4*45 Minuten|
 |Zielgruppe: Schuladministratoren, Schulleitung, Koordinatoren
@@ -48,9 +48,9 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 
 ## **Onlineschulungen**
 
-### Stammdaten- und Schülerverwaltung
+### Schulverwaltung
 
-|O-M01 MAGELLAN Stammdaten- und Schülerverwaltung|
+|O-M01 MAGELLAN Schulverwaltung|
 |:--|
 |Dauer:  3 Termine à 120 Minuten|
 |Zielgruppe: Verwaltungsmitarbeiter|
@@ -79,9 +79,9 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Inhalt:
 <br/>- Vorbereitung für die Erstellung der mymx-Dateien<br/>- Verteilstrategie<br/>- Import der Daten nach MAGELLAN|
 
-### Administrator
+### Administration
 
-|O-M03 MAGELLAN Administrator|
+|O-M03 MAGELLAN Administration|
 |:--|
 |Dauer: 2 Termine à 120 Minuten|
 |Zielgruppe: Schuladministratoren|
@@ -92,9 +92,9 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Dauer: 120 Minuten|
 |Inhalte:<br/>- Schlüsselverzeichnisse anpassen<br/>- Benutzerverwaltung<br/>- Sicherung und Datenbankpflege<br/>- Datenimporte über das MAGELLAN-Importformat<br/>- Erstellen von MyMAGELLAN-Dateien mit dem MyMAGELLAN-Center|
 
-### Abiturmenü
+### Fachwahl und Abiturmenü
 
-|O-M04 Abiturmenü|
+|O-M04 Fachwahl und Abiturmenü|
 |:--|
 |Dauer: zwei Termine mit einmal 120 Minuten und einmal 60 Minuten|
 |Zielgruppe: Oberstufenkoordinatoren|
