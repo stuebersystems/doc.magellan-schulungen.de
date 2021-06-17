@@ -110,11 +110,8 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 
 |O-M05 Bibliothek|
 |:--|
-|Dauer: ...|
-|Zielgruppe: ...|
-|**Teil ..**|
-|Dauer: .. Minuten|
-|Inhalt:<br/>- ...<br/>- ..|
-|**Teil 2/2**|
-|Dauer: ... Minuten|
-|Inhalt:<br/>- ...<br/>- ..|
+|Dauer: 1 Termin a 120 min|
+|Zielgruppe: Bibliotheksmitarbeiter|
+|**Teil 1**|
+|Dauer: 120 Minuten|
+|Inhalt:<br/>- Eingabe der Medien und Exemplare<br/>- Aufnahme von Ausleihern|<br/>Leihvorgänge, Mahnungen|
