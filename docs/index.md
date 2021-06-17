@@ -11,6 +11,7 @@ MAGELLAN Schulverwaltung|**X**|**X**
 MAGELLAN Zeugniskarte|**X**|**X**
 MAGELLAN Administration|**X**|**X**
 MAGELLAN Fachwahl und Abitur|-|**X**
+MAGELLAN Bibliothek|-|**X**
 
 ## **Präsenzschulungen**
 
@@ -104,3 +105,16 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |**Teil 2/2**|
 |Dauer: 60 Minuten|
 |Inhalt:<br/>- Vorbereitende Eingaben für die Fachwahl<br/>- Fachwahltafeln vorbereiten, zuweisen und übernehmen|
+
+### Bibliothek
+
+|O-M05 Bibliothek|
+|:--|
+|Dauer: ...|
+|Zielgruppe: ...|
+|**Teil ..**|
+|Dauer: .. Minuten|
+|Inhalt:<br/>- ...<br/>- ..|
+|**Teil 2/2**|
+|Dauer: ... Minuten|
+|Inhalt:<br/>- ...<br/>- ..|
