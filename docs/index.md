@@ -74,7 +74,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |**Teil 1/2**|
 |Dauer: 120 Minuten|
 |Inhalte:
-<br/>- Einstellungen für Klassen, (eventuell Anlegen und Umgang mit Fachtafeln)<br/>- Noten<br/>- Details und Zeugnisbemerkungen erfassen|
+<br/>- Einstellungen für Klassen<br/>- Anlegen und Umgang mit Fachtafeln<br/>- Noten<br/>- Details und Zeugnisbemerkungen erfassen|
 |**Teil 2/2**|
 |Dauer: 60 Minuten|
 |Inhalt:
