@@ -49,6 +49,20 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 
 ## **Onlineschulungen**
 
+### Voraussetzungen
+
+Für das Gelingen der Schulungen sollte jeder Teilnehmer einen Rechner mit der [jeweils aktuellen MAGELLAN-Installation](https://magellan.stueber.de/download.php) und einer Anbindung auf eine eigene unveränderte Beispieldatenbank und ein Headset mit Mikrofon zur Verfügung haben. 
+Sollten Sie unsere Beispieldatenbank nicht mehr zur Hand oder bereits verändert haben, wenden Sie sich bitte an unseren Support. [https://support.stueber.de/](https://support.stueber.de/)
+
+Bitte stellen Sie sicher, dass die in den Schulungen eingesetzten Programme (beispielsweise für die M02 auch MyMAGELLAN installiert ist) und die dazugehörigen **Lizenzen** verfügbar sind. 
+
+**Testen** Sie bitte Folgendes: Aufruf einer Druckvorschau (`Menü Schüler > einen Schüler markieren > STRG+P > einen Bericht anklicken > STRG+V`). Klappt dieser Aufruf?
+
+Die optimale Variante wäre, wenn jeder Teilnehmer einen Rechner mit Headset und zwei Bildschirme zur Verfügung hätte. Damit könnte man auf dem einen Bildschirm den Zoombildschirm mit dem gezeigten Inhalt sehen und auf dem anderen Bildschirm in MAGELLAN die Schritte mitmachen. 
+
+Nicht optimal, aber alternativ auch möglich ist, dass die Kollegen gemeinsam in einem Raum sitzen und das Zoomfenster auf einem gesonderten Bildschirm gezeigt wird, damit ist dann aber kein Zugriff auf die Situation auf den Teilnehmerrechnern möglich. Bitte stellen Sie bei dieser Variante für die Kommunikation während der Schulung sicher, dass die Teilnehmer zu sehen und auch gut zu hören sind.
+Sollte das alles nicht möglich sein, kann man natürlich auch einfach nur zuschauen, MAGELLAN (oder MyMAGELLAN) wird dann auf den Rechnern nicht benötigt.
+
 ### Schulverwaltung
 
 |O-M01 MAGELLAN Schulverwaltung|
