@@ -52,6 +52,11 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 ### Voraussetzungen
 
 **Voraussetzungen:** Für das Gelingen der Schulungen sollte jeder Teilnehmer einen Rechner mit der [jeweils aktuellen MAGELLAN-Installation](https://magellan.stueber.de/download.php) und einer Anbindung auf eine eigene unveränderte Beispieldatenbank und ein Headset mit Mikrofon zur Verfügung haben. 
+
+!!! warning "Wichtig!"
+
+    In den Schulungen werden Aktionen mit Beispielschülern durchgespielt, dabei sollte jedem Teilnehmer der Zugriff auf das gleiche Beispiel möglich sein. Bitte erstellen Sie je Teilnehmer eine Kopie der Beispieldatenbank und verweisen in den Verbindungsdaten darauf. 
+
 Sollten Sie unsere Beispieldatenbank nicht mehr zur Hand oder bereits verändert haben, wenden Sie sich bitte an unseren Support. [https://support.stueber.de/](https://support.stueber.de/)
 
 Bitte stellen Sie sicher, dass die in den Schulungen eingesetzten Programme (beispielsweise für die M02 auch MyMAGELLAN installiert ist) und die dazugehörigen **Lizenzen** verfügbar sind. 
