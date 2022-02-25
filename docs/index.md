@@ -51,13 +51,11 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 
 ### Voraussetzungen
 
-Für das Gelingen der Schulungen sollte jeder Teilnehmer einen Rechner mit der [jeweils aktuellen MAGELLAN-Installation](https://magellan.stueber.de/download.php) und einer Anbindung auf eine eigene unveränderte Beispieldatenbank und ein Headset mit Mikrofon zur Verfügung haben. 
+**Bitte beachten Sie die nachstehenden Hinweise!**
 
 !!! warning "Wichtig!"
 
-    In den Schulungen werden Aktionen mit Beispielschülern durchgespielt, dabei sollte jedem Teilnehmer der Zugriff auf das gleiche Beispiel möglich sein. Bitte erstellen Sie je Teilnehmer eine Kopie der Beispieldatenbank und verweisen in den Verbindungsdaten darauf. 
-
-**Bitte beachten Sie die nachstehenden Hinweise!**
+    Für das Gelingen der Schulungen sollte jeder Teilnehmer einen Rechner mit der [jeweils aktuellen MAGELLAN-Installation](https://magellan.stueber.de/download.php) und einer Anbindung auf eine eigene unveränderte Beispieldatenbank und ein Headset mit Mikrofon zur Verfügung haben. In den Schulungen werden Aktionen mit Beispielschülern durchgespielt, dabei sollte jedem Teilnehmer der Zugriff auf das gleiche Beispiel möglich sein. Bitte erstellen Sie je Teilnehmer eine Kopie der Beispieldatenbank und verweisen in den Verbindungsdaten darauf. 
 
 Aktion|Hinweise
 --|--
