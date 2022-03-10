@@ -131,4 +131,4 @@ Aktion|Hinweise
 |Zielgruppe: Bibliotheksmitarbeiter|
 |**Teil 1**|
 |Dauer: 120 Minuten|
-|Inhalt:<br/>- Eingabe der Medien und Exemplare<br/>- Aufnahme von Ausleihern|<br/>Leihvorgänge<br/> Mahnungen|
+|Inhalt:<br/>- Eingabe der Medien und Exemplare<br/>- Aufnahme von Ausleihern<br/>- Leihvorgänge<br/>-  Mahnungen|
