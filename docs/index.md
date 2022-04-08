@@ -59,7 +59,7 @@ Für `Crystal Reports-Schulungen` sollte für jeden Teilnehmer zusätzlich zur M
 
 Aktion|Hinweise
 :--|--
-**Beispieldatenbank**|Sollten Sie unsere Beispieldatenbank nicht mehr zur Hand oder bereits verändert haben, können Sie hier eine aktuelle Beispieldatenbank herunterladen. [https://download.stueber.de/bin/de/assets/magellan/v9/database/MAGELLAN9_Beispiel.fdb](https://download.stueber.de/bin/de/assets/magellan/v9/database/MAGELLAN9_Beispiel.fdb).<br/><br/>Legen Sie diese Beispieldatenbank für jeden Teilnehmer parallel zu Ihrer Schuldatenbank ab (Beispiel: `MAGELLAN9_Beispiel.01.fdb`, `MAGELLAN9_Beispiel.01.fdb`, `MAGELLAN9_Beispiel.02.fdb`...).<br/><br/>Richten Sie für Ihre Teilnehmer jeweils eine Verbindung zu einer der Datenbanken ein, so das jeder Teilnehmer eine Anbindung zu einer Datenbank hat. Sie können hierfür im MAGELLAN Administrator auf der Unterkarte `Datenbankverbindungen` eine bestehende Verbindung per `Rechtsklick > Kopieren` duplizieren und lediglich die Benennung der Datenbank auf der Unterkarte `Datenbank` anpassen.<br/><br/>Alternativ legen Sie eine neue Datenbankverbindung an, die Anleitung dafür finden Sie hier:[[https://doc.magellan.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/](https://doc.magellan.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/).
+**Beispieldatenbank**|Sollten Sie unsere Beispieldatenbank nicht mehr zur Hand oder bereits verändert haben, können Sie hier eine aktuelle Beispieldatenbank herunterladen:<br/>[https://download.stueber.de/bin/de/assets/magellan/v9/database/MAGELLAN9_Beispiel.fdb](https://download.stueber.de/bin/de/assets/magellan/v9/database/MAGELLAN9_Beispiel.fdb).<br/><br/>Legen Sie diese Beispieldatenbank für jeden Teilnehmer parallel zu Ihrer Schuldatenbank ab (Beispiel: `MAGELLAN9_Beispiel.01.fdb`, `MAGELLAN9_Beispiel.01.fdb`, `MAGELLAN9_Beispiel.02.fdb`...).<br/><br/>Richten Sie für Ihre Teilnehmer jeweils eine Verbindung zu einer der Datenbanken ein, so das jeder Teilnehmer eine Anbindung zu einer Datenbank hat. Sie können hierfür im MAGELLAN Administrator auf der Unterkarte `Datenbankverbindungen` eine bestehende Verbindung per `Rechtsklick > Kopieren` duplizieren und lediglich die Benennung der Datenbank auf der Unterkarte `Datenbank` anpassen.<br/><br/>Alternativ legen Sie eine neue Datenbankverbindung an, die Anleitung dafür finden Sie hier:[[https://doc.magellan.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/](https://doc.magellan.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/).
 **Lizenzen**|Bitte stellen Sie sicher, dass die in den Schulungen eingesetzten Programme (beispielsweise für die M02 auch MyMAGELLAN installiert ist) und die dazugehörigen **Lizenzen** verfügbar sind.
 **Test der**<br/>**Schulungsumgebung**|Testen Sie bitte Folgendes innerhalb der MAGELLAN Schulverwaltung:<br/><br/>1. Melden Sie sich mit der Standardkennung `sysdba` und dem Passwort `masterkey`. Klappt das? Wenn nicht erkundigen Sie sich intern nach den zu verwendenen Anmeldedaten. Für die Schulung O-M0 MAGELLAN Administrator ist die Anmeldung als `sysdba` Voraussetzung.<br/><br/>2. Bitte rufen Sie innerhalb der MAGELLAN Schulverwaltung die Druckvorschau (`Menü Schüler > einen Schüler markieren > STRG+P > einen Bericht anklicken > STRG+V`) auf. Klappt dieser Aufruf?
 **Kommunikation**|**Bitte stellen Sie für die Kommunikation während der Schulung sicher,**<br/>**dass die Teilnehmer zu sehen und auch gut zu hören sind**.
@@ -114,14 +114,14 @@ Aktion|Hinweise
 
 |O-M04 Fachwahl und Abiturmenü|
 |:--|
-|Dauer: zwei Termine mit einmal 120 Minuten und einmal 60 Minuten|
+|Dauer: ein Termin mit zweimal 90 Minuten und 30 Minuten Pause|
 |Zielgruppe: Oberstufenkoordinatoren|
 |**Teil 1/2**|
-|Dauer: 120 Minuten|
-|Inhalt:<br/>- Landesanpassungen<br/>- Einstellungen (Klassen, Fächer, Schlüsselverzeichnisse)<br/>- Schüler synchronisieren<br/>- Qualifikationskarte<br/>- Prüfungskarte|
+|Dauer: 90 Minuten|
+|Inhalt:<br/>- Landesanpassungen<br/>- Einstellungen (Klassen, Fächer, Schlüsselverzeichnisse)<br/>- Schüler synchronisieren|
 |**Teil 2/2**|
-|Dauer: 60 Minuten|
-|Inhalt:<br/>- Vorbereitende Eingaben für die Fachwahl<br/>- Fachwahltafeln vorbereiten, zuweisen und übernehmen|
+|Dauer: 90 Minuten|
+|Inhalt:<br/>- Vorbereitende Eingaben für die Fachwahl<br/>- Fachwahltafeln vorbereiten, zuweisen und übernehmen<br/>- Qualifikationskarte<br/>- Prüfungskarte|
 
 ### Bibliothek
 
