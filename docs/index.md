@@ -116,10 +116,10 @@ Aktion|Hinweise
 |Zielgruppe: Oberstufenkoordinatoren|
 |**Teil 1/2**|
 |Dauer: 90 Minuten|
-|Inhalt:<br/>- Landesanpassungen<br/>- Einstellungen (Klassen, Fächer, Schlüsselverzeichnisse)<br/>- Schüler synchronisieren|
+|Inhalt:<br/>- vorbereitende Eingaben (Klassen, Fächer, Schlüsselverzeichnisse)<br/>- Fachwahltafeln vorbereiten, zuweisen und übernehmen|
 |**Teil 2/2**|
 |Dauer: 90 Minuten|
-|Inhalt:<br/>- Vorbereitende Eingaben für die Fachwahl<br/>- Fachwahltafeln vorbereiten, zuweisen und übernehmen<br/>- Qualifikationskarte<br/>- Prüfungskarte|
+|Inhalt:<br/>- Schüler synchronisieren<br/>- Qualifikationskarte<br/>- Prüfungskarte|
 
 ### Bibliothek
 
