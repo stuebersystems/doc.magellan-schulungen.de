@@ -86,16 +86,14 @@ Aktion|Hinweise
 
 |O-M02 MAGELLAN Zeugniskarte|
 |:--|
-|Dauer: zwei Termine mit einmal 120 Minuten und einmal 60 Minuten|
+|Dauer: ein Termin mit zweimal 90 Minuten und 30 Minuten Pause|
 |Zielgruppe: Zeugnisschreiber/ Oberstufenkoordinatoren, ggfs. Administratoren|
 |**Teil 1/2**|
-|Dauer: 120 Minuten|
-|Inhalte:
-<br/>- Einstellungen für Klassen<br/>- Anlegen und Umgang mit Fachtafeln<br/>- Noten<br/>- Details und Zeugnisbemerkungen erfassen|
+|Dauer: 90 Minuten|
+|Inhalte:<br/>- Einstellungen für Klassen<br/>- Anlegen und Umgang mit Fachtafeln<br/>- Noten<br/>- Details und Zeugnisbemerkungen erfassen|
 |**Teil 2/2**|
-|Dauer: 60 Minuten|
-|Inhalt:
-<br/>- Vorbereitung für die Erstellung der mymx-Dateien<br/>- Verteilstrategie<br/>- Import der Daten nach MAGELLAN|
+|Dauer: 90 Minuten|
+|Inhalte:<br/>- Vorbereitung für die Erstellung der mymx-Dateien<br/>- Verteilstrategie<br/>- Import der Daten nach MAGELLAN|
 
 ### Administration
 
