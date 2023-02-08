@@ -130,3 +130,13 @@ Aktion|Hinweise
 |**Teil 1**|
 |Dauer: 120 Minuten|
 |Inhalt:<br/>- Eingabe der Medien und Exemplare<br/>- Aufnahme von Ausleihern<br/>- Leihvorgänge<br/>-  Mahnungen|
+
+### MYMAGELLAN
+
+|O-M06 MYMAGELLAN|
+|:--|
+|Dauer: 1 Termin a 120 min|
+|Zielgruppe: Administratoren, Zeugnisschreiber, Koordinatoren|
+|**Teil 1**|
+|Dauer: 120 Minuten|
+|Inhalt:<br/>- Vorbereitungen in MAGELLAN<br/>- Vorbereitungen im MAGELLAN Administrator<br/>- Daten verteilen<br/>- Erfassen in MyMAGELLAN<br/>- Daten einsammeln
