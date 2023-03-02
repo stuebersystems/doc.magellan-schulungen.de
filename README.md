@@ -1,4 +1,4 @@
-# MAGELLAN 7 Schulungsunterlagen
+# MAGELLAN Schulungsunterlagen
 
 Dies sind die Schulungsunterlagen für [MAGELLAN](https://magellan.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. 
 
