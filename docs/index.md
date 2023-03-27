@@ -53,7 +53,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 
 Für das Gelingen der Schulungen sollte jeder Teilnehmer einen Rechner mit der [jeweils aktuellen MAGELLAN-Installation](https://magellan.stueber.de/download.php) und einer Anbindung auf eine eigene unveränderte Beispieldatenbank und ein Headset mit Mikrofon zur Verfügung haben. In den Schulungen werden Aktionen mit Beispielschülern durchgespielt, dabei sollte jedem Teilnehmer der Zugriff auf das gleiche Beispiel möglich sein. Bitte erstellen Sie je Teilnehmer eine Kopie der Beispieldatenbank und verweisen in den Verbindungsdaten darauf.
 <br/>Um den gezeigten Inhalten gut folgen zu können und auch parallel selbst mitmachen zu können, ist es sinnvoll mit **zwei Bildschirmen zu arbeiten oder einen breiten Bildschirm** zu nutzen, der das Zoomfenster und das eigenen MAGELLAN-Fenster nebeneinander sehen zu können<br/>
-**Bitte stellen Sie für die Kommunikation während der Schulung sicher, dass die Teilnehmer gut zu sehen und auch gut zu hören sind**.<br/>
+**Bitte stellen Sie für die Kommunikation während der Schulung sicher, dass die einzelnen Teilnehmer gut zu sehen und auch gut zu hören sind**.<br/>
 Für die Schulungen `O-M03 MAGELLAN Administrator` und `O-M02 MAGELLAN Zeugniskarte` sollte zusätzlich für jeden Platz das Modul MyMAGELLAN installiert werden.
 
 Für `Crystal Reports-Schulungen` sollte für jeden Teilnehmer zusätzlich zur MAGELLAN-Installations auch Crystal Reports installiert und lizenziert werden.
