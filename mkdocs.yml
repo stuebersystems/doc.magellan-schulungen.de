@@ -84,5 +84,4 @@ nav:
       - Medien und Exemplare: m05/02.medien_exemplare.md
       - Ausleiher: m05/03.ausleiher.md
       - Vorgänge: m05/04.vorgaenge.md
-  - M06 MyMAGELLAN:
-      - Überblick: m05/01.einstieg.md
+  - M06 MyMAGELLAN: m06/01.einstieg.md
