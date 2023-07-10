@@ -24,7 +24,7 @@ theme:
     features:
         - navigation.footer
         - navigation.instant
-        - navigation.tabs
+        - navigation.top
         - search.highlight
         - search.share
         - search.suggest
@@ -90,34 +90,33 @@ markdown_extensions:
   
 # Navigation  
 nav:
-- Allgemein: 
-  - Überblick: index.md
-  - M01 Schulverwaltung:
-    - Einstieg: m01/02.einstieg.md
-    - Laufbahnprozesse: m01/03.laufbahnprozesse.md
-    - Registerkarten: m01/04.registerkarten.md
-    - Druck, Dokumente: m01/05.druck.md
-  - M02 Zeugniskarte:
-      - Landesanpassungen: m02/02.landesanpassungen.md
-      - Registerkarte Zeugnis: m02/03.register.zeugnis.md
-      - Drucken: m02/04.druck.md
-  - M03 Administration:
-      - Installation: m03/02.installation.md
-      - Lizenz: m03/03.lizenz.md
-      - Deinstallation: m03/04.deinstallation.md
-      - Update: m03/05.update.md
-      - Neue Datenbank: m03/06.neue.db.md
-      - Import: m03/07.import.md
-      - Benutzerverwaltung: m03/08.benutzer.md
-      - Sichern: m03/09.sichern.md
-      - MyMAGELLAN CENTER: m03/10.mymag.md
-  - M04 Fachwahl und Abitur:
-      - Vorbereitung: m04/01.vorbereitungen.md
-      - Fachwahl: m04/02.fachwahl.md
-      - Abitur: m04/03.abitur.md
-  - M05 Bibliothek:
-      - Einstieg: m05/01.einstieg.md
-      - Medien und Exemplare: m05/02.medien_exemplare.md
-      - Ausleiher: m05/03.ausleiher.md
-      - Vorgänge: m05/04.vorgaenge.md
-  - M06 MyMAGELLAN: m06/einstieg.md
+- Überblick: index.md
+- M01 Schulverwaltung:
+  - Einstieg: m01/02.einstieg.md
+  - Laufbahnprozesse: m01/03.laufbahnprozesse.md
+  - Registerkarten: m01/04.registerkarten.md
+  - Druck, Dokumente: m01/05.druck.md
+- M02 Zeugniskarte:
+  - Landesanpassungen: m02/02.landesanpassungen.md
+  - Registerkarte Zeugnis: m02/03.register.zeugnis.md
+  - Drucken: m02/04.druck.md
+- M03 Administration:
+  - Installation: m03/02.installation.md
+  - Lizenz: m03/03.lizenz.md
+  - Deinstallation: m03/04.deinstallation.md
+  - Update: m03/05.update.md
+  - Neue Datenbank: m03/06.neue.db.md
+  - Import: m03/07.import.md
+  - Benutzerverwaltung: m03/08.benutzer.md
+  - Sichern: m03/09.sichern.md
+  - MyMAGELLAN CENTER: m03/10.mymag.md
+- M04 Fachwahl und Abitur:
+  - Vorbereitung: m04/01.vorbereitungen.md
+  - Fachwahl: m04/02.fachwahl.md
+  - Abitur: m04/03.abitur.md
+- M05 Bibliothek:
+  - Einstieg: m05/01.einstieg.md
+  - Medien und Exemplare: m05/02.medien_exemplare.md
+  - Ausleiher: m05/03.ausleiher.md
+  - Vorgänge: m05/04.vorgaenge.md
+- M06 MyMAGELLAN: m06/einstieg.md
