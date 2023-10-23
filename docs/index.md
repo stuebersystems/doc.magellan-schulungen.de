@@ -23,7 +23,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |:--|--|--|
 |09:00 – 10:30 Uhr<br/>10:45 – 12:15 Uhr<br/>12:45 - 14:15 Uhr<br/>14:30 - 15:15 Uhr|09:00 Uhr – 10:30 Uhr<br/>10:45 Uhr – 12:15 Uhr|09:00 Uhr – 10:30 Uhr<br/>10:45 Uhr – 12:15 Uhr<br/>12:45 Uhr – 14:15 Uhr|
 
-### Schulverwaltung
+### P-M01 Schulverwaltung
 
 |P-M01 MAGELLAN Schulverwaltung|
 |:--|
@@ -31,7 +31,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Zielgruppe: Mitarbeiter des Schulsekretariats|
 |Inhalte:<br/>- Zeitraumkonzept<br/>- Handling der Auswahllisten<br/>- Schlüsselverzeichnisse<br/>- Dateneingabefür Bewerber/Schüler<br/>- Schülerlaufbahn<br/>- Druck<br/>- Seriendruck<br/>- Dokumentenverwaltung
 
-### Zeugniskarte
+### P-M02 Zeugniskarte
 
 |P-M02 MAGELLAN Zeugniskarte|
 |:--|
@@ -39,7 +39,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Zielgruppe: Zeugnisschreiber, Koordinatoren
 |Inhalte:<br/>- Fächereingabe<br/>- Fachtafelerstellung<br/>- Noteneingabe in MAGELLAN<br/>- Zeugnisbemerkungen<br/>- Modul MAGELLAN Berichte|
 
-### Administration
+### P-M03 Administration
 
 |P-M03 MAGELLAN Administration|
 |:--|
@@ -67,7 +67,7 @@ Aktion|Hinweise
 **Probleme?**|Sollten Probleme entstehen wenden Sie sich bitte vor dem vereinbarten Schulungstermin an unser [Supportteam](https://support.stueber.de/), vielen Dank!
 **Unsere**<br/>**Empfehlung**|Die optimale Variante wäre, wenn jeder Teilnehmer einen Rechner mit Headset und zwei Bildschirme zur Verfügung hätte. Damit könnte man auf dem einen Bildschirm den Zoombildschirm mit dem gezeigten Inhalt sehen und auf dem anderen Bildschirm in MAGELLAN die Schritte durchführen.<br/><br/>Nicht optimal, aber alternativ auch möglich ist, dass die Kollegen gemeinsam in einem Raum sitzen und das Zoomfenster auf einem gesonderten Bildschirm gezeigt wird, damit ist dann aber kein Zugriff auf die Situation auf den Teilnehmerrechnern möglich.<br/><br/>Sollte das alles nicht möglich sein, kann man natürlich auch einfach nur zuschauen, MAGELLAN (oder MyMAGELLAN) wird dann auf den Rechnern nicht benötigt.
 
-### Schulverwaltung
+### O-M01 Schulverwaltung
 
 |O-M01 MAGELLAN Schulverwaltung|
 |:--|
@@ -83,7 +83,7 @@ Aktion|Hinweise
 |Dauer: 120 Minuten|
 |Inhalte:<br/>- Voraussetzungen für Berichte<br/>- Berichte organisieren<br/>- Seriendruckschnittstelle zu MSWord<br/>- Dokumentenverwaltung|
 
-### Zeugniskarte
+### O-M02 Zeugniskarte
 
 |O-M02 MAGELLAN Zeugniskarte|
 |:--|
@@ -96,7 +96,7 @@ Aktion|Hinweise
 |Dauer: 90 Minuten|
 |Inhalte:<br/>- Vorbereitung für die Erstellung der mymx-Dateien<br/>- Verteilstrategie<br/>- Import der Daten nach MAGELLAN|
 
-### Administration
+### O-M03 Administration
 
 |O-M03 MAGELLAN Administration|
 |:--|
@@ -109,7 +109,7 @@ Aktion|Hinweise
 |Dauer: 120 Minuten|
 |Inhalte:<br/>- Schlüsselverzeichnisse anpassen<br/>- Benutzerverwaltung<br/>- Sicherung und Datenbankpflege<br/>- Datenimporte über das MAGELLAN-Importformat<br/>- Erstellen von MyMAGELLAN-Dateien mit dem MyMAGELLAN-Center|
 
-### Fachwahl und Abiturmenü
+### O-M04 Fachwahl und Abiturmenü
 
 |O-M04 Fachwahl und Abiturmenü|
 |:--|
@@ -122,7 +122,7 @@ Aktion|Hinweise
 |Dauer: 90 Minuten|
 |Inhalt:<br/>- Schüler synchronisieren<br/>- Qualifikationskarte<br/>- Prüfungskarte|
 
-### Bibliothek
+### O-M05 Bibliothek
 
 |O-M05 Bibliothek|
 |:--|
@@ -132,7 +132,7 @@ Aktion|Hinweise
 |Dauer: 120 Minuten|
 |Inhalt:<br/>- Eingabe der Medien und Exemplare<br/>- Aufnahme von Ausleihern<br/>- Leihvorgänge<br/>-  Mahnungen|
 
-### MYMAGELLAN
+### O-M06 MYMAGELLAN
 
 |O-M06 MYMAGELLAN|
 |:--|
