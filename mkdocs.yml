@@ -5,7 +5,8 @@ site_author: 'STÜBER SYSTEMS GmbH'
 site_url: 'https://doc.magellan-schulungen.stueber.de'
 
 # Copyright
-copyright: © 2021 STÜBER SYSTEMS GmbH
+copyright:
+  '&copy; 2023 STÜBER SYSTEMS GmbH : <a href="https://legal.stueber.de/imprint.php">Impressum</a> : <a href="https://legal.stueber.de/privacy.php">Datenschutz</a>'
 
 # Repository
 repo_name: 'Auf GitHub'
@@ -14,74 +15,108 @@ repo_url: 'https://github.com/stuebersystems/doc.magellan-schulungen.de'
 # Theming
 theme: 
     name: material
-    custom_dir: overrides
     language: de
-    direction:
+    static_templates:
+        - 404.html
+    include_search_page: false
+    search_index_only: true
+    language: de
     features:
-        - navigation.tabs
+        - navigation.footer
         - navigation.instant
+        - navigation.top
+        - search.highlight
+        - search.share
+        - search.suggest
+        - toc.follow
     palette:
         primary: 'blue'
         accent: 'deep orange'
     font: false
     favicon: assets/logos/favicon.ico
     logo: 'assets/logos/logo.svg'
-    include_search_page: false
-    search_index_only: true
-    static_templates:
-      - 404.html
-
-# Legal links
-extra:
-  legal:
-    - label: Impressum
-      link: https://www.stueber.de/imprint.php
-    - label: Datenschutz
-      link: https://legal.stueber.de/privacy.php
 
 # Customization
 extra_css:
     - assets/css/custom.css
-    
-# Extensions    
-markdown_extensions:
-    - admonition
 
 # Plugins    
 plugins:
     - search
     - img2fig
+    - minify:
+        minify_html: true
+    
+# Extensions    
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.abbr
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde  
   
 # Navigation  
 nav:
-- Allgemein: 
-  - Überblick: index.md
-  - M01 Schulverwaltung:
-    - Einstieg: m01/02.einstieg.md
-    - Laufbahnprozesse: m01/03.laufbahnprozesse.md
-    - Registerkarten: m01/04.registerkarten.md
-    - Druck, Dokumente: m01/05.druck.md
-  - M02 Zeugniskarte:
-      - Landesanpassungen: m02/02.landesanpassungen.md
-      - Registerkarte Zeugnis: m02/03.register.zeugnis.md
-      - Drucken: m02/04.druck.md
-  - M03 Administration:
-      - Installation: m03/02.installation.md
-      - Lizenz: m03/03.lizenz.md
-      - Deinstallation: m03/04.deinstallation.md
-      - Update: m03/05.update.md
-      - Neue Datenbank: m03/06.neue.db.md
-      - Import: m03/07.import.md
-      - Benutzerverwaltung: m03/08.benutzer.md
-      - Sichern: m03/09.sichern.md
-      - MyMAGELLAN CENTER: m03/10.mymag.md
-  - M04 Fachwahl und Abitur:
-      - Vorbereitung: m04/01.vorbereitungen.md
-      - Fachwahl: m04/02.fachwahl.md
-      - Abitur: m04/03.abitur.md
-  - M05 Bibliothek:
-      - Einstieg: m05/01.einstieg.md
-      - Medien und Exemplare: m05/02.medien_exemplare.md
-      - Ausleiher: m05/03.ausleiher.md
-      - Vorgänge: m05/04.vorgaenge.md
-  - M06 MyMAGELLAN: m06/einstieg.md
+- Überblick: index.md
+- M01 Schulverwaltung:
+  - Einstieg: m01/02.einstieg.md
+  - Laufbahnprozesse: m01/03.laufbahnprozesse.md
+  - Registerkarten: m01/04.registerkarten.md
+  - Druck, Dokumente: m01/05.druck.md
+- M02 Zeugniskarte:
+  - Landesanpassungen: m02/02.landesanpassungen.md
+  - Registerkarte Zeugnis: m02/03.register.zeugnis.md
+  - Drucken: m02/04.druck.md
+- M03 Administration:
+  - Installation: m03/02.installation.md
+  - Lizenz: m03/03.lizenz.md
+  - Deinstallation: m03/04.deinstallation.md
+  - Update: m03/05.update.md
+  - Neue Datenbank: m03/06.neue.db.md
+  - Import: m03/07.import.md
+  - Benutzerverwaltung: m03/08.benutzer.md
+  - Sichern: m03/09.sichern.md
+  - MyMAGELLAN CENTER: m03/10.mymag.md
+- M04 Fachwahl und Abitur:
+  - Vorbereitung: m04/01.vorbereitungen.md
+  - Fachwahl: m04/02.fachwahl.md
+  - Abitur: m04/03.abitur.md
+- M05 Bibliothek:
+  - Einstieg: m05/01.einstieg.md
+  - Medien und Exemplare: m05/02.medien_exemplare.md
+  - Ausleiher: m05/03.ausleiher.md
+  - Vorgänge: m05/04.vorgaenge.md
+- M06 MyMAGELLAN: m06/einstieg.md
