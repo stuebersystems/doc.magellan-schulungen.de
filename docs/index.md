@@ -21,7 +21,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 
 |P-M01 <br/>7*45min|P-M02<br/>4*45min<|P-M03<br/>6*45min|
 |:--|--|--|
-|09:30 – 11:00 Uhr <br/>11:15 – 12:45 Uhr <br/>13:15 - 15:30 Uhr|09:30 Uhr – 11:00 Uhr<br/>11:15 Uhr – 12:45 Uhr<br/><br/>    |09:30 Uhr – 11:00 Uhr<br/>11:15 Uhr – 12:45 Uhr<br/>13:15 Uhr - 14:45 Uhr|
+|09:30 – 11:00 Uhr <br/>11:15 – 12:45 Uhr <br/>13:15 – 15:30 Uhr|09:30 Uhr – 11:00 Uhr<br/>11:15 Uhr – 12:45 Uhr<br/><br/>    |09:30 Uhr – 11:00 Uhr<br/>11:15 Uhr – 12:45 Uhr<br/>13:15 Uhr – 14:45 Uhr|
 
 ### P-M01 Schulverwaltung
 
