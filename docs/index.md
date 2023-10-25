@@ -19,9 +19,9 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 
 ### Zeitliche Aufteilung
 
-|P-M01|P-M02|P-M03|
+|P-M01 <br/>7*45min|P-M02<br/>4*45min<|P-M03<br/>6*45min|
 |:--|--|--|
-|09:00 – 10:30 Uhr<br/>10:45 – 12:15 Uhr<br/>12:45 - 14:15 Uhr<br/>14:30 - 15:15 Uhr|09:00 Uhr – 10:30 Uhr<br/>10:45 Uhr – 12:15 Uhr|09:00 Uhr – 10:30 Uhr<br/>10:45 Uhr – 12:15 Uhr<br/>12:45 Uhr – 14:15 Uhr|
+|09:30 – 11:00 Uhr <br/>11:15 – 12:45 Uhr <br/>13:15 - 15:30 Uhr|09:30 Uhr – 11:00 Uhr<br/>11:15 Uhr – 12:45 Uhr<br/><br/>    |09:30 Uhr – 11:00 Uhr<br/>11:15 Uhr – 12:45 Uhr<br/>13:15 Uhr - 14:45 Uhr|
 
 ### P-M01 Schulverwaltung
 
