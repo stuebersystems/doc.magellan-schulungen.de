@@ -69,12 +69,11 @@ Aktion|Hinweise
 **Kommunikation**|Bitte stellen Sie für die Kommunikation während der Schulung sicher, dass die **Teilnehmer zu sehen und auch gut zu hören** sind.
 **Probleme?**|Sollten Probleme entstehen wenden Sie sich bitte **vor dem vereinbarten Schulungstermin** an unser [Supportteam](https://support.stueber.de/), vielen Dank!
 
-
 ### O-M01 Schulverwaltung
 
 |O-M01 MAGELLAN Schulverwaltung|
 |:--|
-|Dauer:  3 Termine à 120 Minuten|
+|Dauer:  3 Termine à 120 Minuten (3 verschiedene Tage)|
 |Zielgruppe: Verwaltungsmitarbeiter|
 |**Teil 1 / 3**|
 |Dauer: 120 Minuten|
