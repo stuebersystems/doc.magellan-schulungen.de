@@ -1,6 +1,6 @@
 # Project information
-site_name: MAGELLAN Schulungsunterlagen
-site_description: 'MAGELLAN Schulungsunterlagen'
+site_name: Magellan Schulungsunterlagen
+site_description: 'Magellan Schulungsunterlagen'
 site_author: 'STÜBER SYSTEMS GmbH'
 site_url: 'https://doc.magellan-schulungen.stueber.de'
 
@@ -109,7 +109,7 @@ nav:
   - Import: m03/07.import.md
   - Benutzerverwaltung: m03/08.benutzer.md
   - Sichern: m03/09.sichern.md
-  - MyMAGELLAN CENTER: m03/10.mymag.md
+  - MyMagellan Center: m03/10.mymag.md
 - M04 Fachwahl und Abitur:
   - Vorbereitung: m04/01.vorbereitungen.md
   - Fachwahl: m04/02.fachwahl.md
@@ -119,4 +119,4 @@ nav:
   - Medien und Exemplare: m05/02.medien_exemplare.md
   - Ausleiher: m05/03.ausleiher.md
   - Vorgänge: m05/04.vorgaenge.md
-- M06 MyMAGELLAN: m06/einstieg.md
+- M06 MyMagellan: m06/einstieg.md

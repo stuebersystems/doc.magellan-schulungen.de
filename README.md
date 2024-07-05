@@ -1,6 +1,6 @@
-# MAGELLAN Schulungsunterlagen
+# Magellan Schulungsunterlagen
 
-Dies sind die Schulungsunterlagen für [MAGELLAN](https://magellan.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. 
+Dies sind die Schulungsunterlagen für [Magellan](https://magellan.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. 
 
 ## MkDocs unter Windows installieren
 
