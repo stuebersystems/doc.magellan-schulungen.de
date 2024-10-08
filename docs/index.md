@@ -29,7 +29,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |:--|
 |Dauer: 7*45 Minuten|
 |Zielgruppe: Mitarbeiter des Schulsekretariats|
-|Inhalte:<br/>- Zeitraumkonzept<br/>- Handling der Auswahllisten<br/>- Schlüsselverzeichnisse<br/><br/>- Dateneingabefür Bewerber/Schüler<br/>- Schülerlaufbahn<br/><br/>- Druck<br/>- Seriendruck<br/>- Dokumentenverwaltung
+|Inhalte:<br/>- Zeitraumkonzept<br/>- Handling der Auswahllisten<br/>- Schlüsselverzeichnisse<br/><br/>- Dateneingabe für Bewerber/Schüler<br/>- Schülerlaufbahn<br/><br/>- Druck<br/>- Seriendruck<br/>- Dokumentenverwaltung
 
 ### P-M02 Zeugniskarte
 
