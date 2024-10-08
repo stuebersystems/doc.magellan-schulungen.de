@@ -19,7 +19,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 
 ### Zeitliche Aufteilung
 
-|P-M01 <br/>7*45min|P-M02<br/>4*45min<|P-M03<br/>6*45min|
+|P-M01 <br/>7*45min | P-M02<br/>4*45min|P-M03<br/>6*45min|
 |:--|--|--|
 |09:30 – 11:00 Uhr <br/>11:15 – 12:45 Uhr <br/>13:15 – 15:30 Uhr|09:30 Uhr – 11:00 Uhr<br/>11:15 Uhr – 12:45 Uhr<br/><br/>    |09:30 Uhr – 11:00 Uhr<br/>11:15 Uhr – 12:45 Uhr<br/>13:15 Uhr – 14:45 Uhr|
 
@@ -29,7 +29,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |:--|
 |Dauer: 7*45 Minuten|
 |Zielgruppe: Mitarbeiter des Schulsekretariats|
-|Inhalte:<br/>- Zeitraumkonzept<br/>- Handling der Auswahllisten<br/>- Schlüsselverzeichnisse<br/><br/>- Dateneingabe für Bewerber/Schüler<br/>- Schülerlaufbahn<br/><br/>- Druck<br/>- Seriendruck<br/>- Dokumentenverwaltung
+|Inhalte:<br/>- Zeitraumkonzept<br/>- Handling der Auswahllisten<br/>- Schlüsselverzeichnisse<br/>- Dateneingabe für Bewerber/Schüler<br/>- Schülerlaufbahn<br/>- Druck<br/>- Seriendruck<br/>- Dokumentenverwaltung
 
 ### P-M02 Zeugniskarte
 
