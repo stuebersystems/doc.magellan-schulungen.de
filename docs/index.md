@@ -59,9 +59,11 @@ Für das Gelingen der Schulungen sollte jeder Teilnehmer einen Rechner mit der [
     Bitte stellen Sie für die Kommunikation während der Schulung sicher, dass die einzelnen Teilnehmer gut zu sehen und auch gut zu hören sind.
     Führen Sie bitte die unten genannten Tests je Rechner durch!
 
-Für die Schulungen `O-M03 Magellan Administrator` und `O-M02 Magellan Zeugniskarte` sollte zusätzlich für jeden Platz das Modul MyMagellan installiert werden. Für `Crystal Reports-Schulungen` sollte für jeden Teilnehmer zusätzlich zur Magellan-Installations auch Crystal Reports installiert und lizenziert werden.
-
 #### Anleitungen
+
+Für die Schulungen `O-M03 Magellan Administrator` und `O-M02 Magellan Zeugniskarte` sollte zusätzlich (zu Magellan, der CR-Runtimeversion und ggfs. Firebird) für jeden Platz das Modul MyMagellan installiert werden. 
+Für `Crystal Reports-Schulungen` sollte für jeden Teilnehmer zusätzlich (zu Magellan, der CR-Runtimeversion und ggfs. Firebird) auch Crystal Reports installiert und lizenziert werden.
+
 
 Server- oder Einzelplatzinstallation: [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/installation/version11/server.installieren/)
 
