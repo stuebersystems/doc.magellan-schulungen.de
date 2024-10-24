@@ -47,7 +47,7 @@ Unsere Präsenzschulungen bieten wir bei uns im Hause oder auch bei Ihnen vor Or
 |Zielgruppe: Schuladministratoren, Schulleitung, Koordinatoren
 |Inhalte:<br/>- Installation und Updates<br/>- neue Datenbank einrichten<br/>- Magellan-Importformat<br/>- Schlüsselverzeichnisse<br/>- Benutzerverwaltung<br/>- Sicherung und Datenbankpflege<br/>- MyMagellan-Center|
 
-## **Onlineschulungen**
+## Onlineschulungen
 
 ### Voraussetzungen
 
@@ -58,16 +58,54 @@ Für das Gelingen der Schulungen sollte jeder Teilnehmer einen Rechner mit der [
 
     Bitte stellen Sie für die Kommunikation während der Schulung sicher, dass die einzelnen Teilnehmer gut zu sehen und auch gut zu hören sind.
     Führen Sie bitte die unten genannten Tests je Rechner durch!
+
 Für die Schulungen `O-M03 Magellan Administrator` und `O-M02 Magellan Zeugniskarte` sollte zusätzlich für jeden Platz das Modul MyMagellan installiert werden. Für `Crystal Reports-Schulungen` sollte für jeden Teilnehmer zusätzlich zur Magellan-Installations auch Crystal Reports installiert und lizenziert werden.
 
-Aktion|Hinweise
-:--|--
-**Anleitungen**|- Server- oder Einzelplatzinstallation: [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/installation/version11/server.installieren/)<br/>- Arbeitsplatzinstallation: [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/installation/version11/arbeitsplatz.installieren/)<br/>- MyMagellan: [Anleitung](https://doc.mymagellan.stueber.de/installation/)
-**Beispieldatenbank**|Sollten Sie unsere Beispieldatenbank nicht mehr zur Hand oder bereits verändert haben, können Sie hier eine aktuelle Beispieldatenbank herunterladen:<br/>[https://download.stueber.de/bin/de/assets/magellan/v11/database/MAGELLAN11_Beispiel.FDB](https://download.stueber.de/bin/de/assets/magellan/v11/database/MAGELLAN11_Beispiel.FDB).<br/><br/>**Datenbank im Netzwerk** (Arbeitsplatzinstallation): <br/> Legen Sie diese Beispieldatenbank für jeden Teilnehmer parallel zu Ihrer Schuldatenbank ab (Beispiel: `MAGELLAN11_Beispiel.01.FDB`, `MAGELLAN11_Beispiel.02.FDB`, `MAGELLAN11_Beispiel.03.FDB`...).<br/>Richten Sie für Ihre Teilnehmer jeweils eine Verbindung zu einer der Datenbanken ein, so das jeder Teilnehmer eine Anbindung zu einer gesonderten Datenbank hat. Sie können hierfür im Magellan Administrator auf der Unterkarte `Datenbankverbindungen` eine bestehende Verbindung per `Rechtsklick > Kopieren` duplizieren und lediglich die Benennung der Datenbank auf der Unterkarte `Datenbank` anpassen.<br/><br/>**Datenbank direkt auf dem Rechner** (Server- /Einzelplatzinstallation): <br/>Wenn es die erste Magellan-Installation auf dem Rechner ist, leigt die Beispieldatenbank bereits im Datenbank-Verzeichnis. Alternativ tauschen Sie sie bitte aus.
-**Lizenzen**|Bitte stellen Sie sicher, dass die in den Schulungen eingesetzten Programme (beispielsweise für die M02 auch MyMagellan installiert ist) und die dazugehörigen **Lizenzen** verfügbar sind.
-**Tests**|1. Melden Sie sich mit der Standardkennung `sysdba` und dem Passwort `masterkey`. Klappt das? Wenn nicht erkundigen Sie sich intern nach den zu verwendenen Anmeldedaten und stellen Sie den Teilnehmern zur Verfügung. <br/>2. Bitte rufen Sie innerhalb der Magellan Schulverwaltung die Druckvorschau (`Menü Schüler > einen Schüler markieren > STRG+P > einen Bericht anklicken > STRG+V`) auf. Klappt dieser Aufruf?<br/>3. Bitte rufen Sie innerhalb der Magellan Schulverwaltung den Seriendruck auf (`Menü Schüler > einen Schüler markieren > STRG+S > Weiter > Mittlere Option mit "Neue Vorlage"`) auf. Öffnet sich Word in der Taskleiste?
-**Kommunikation**|Bitte stellen Sie für die Kommunikation während der Schulung sicher, dass die **Teilnehmer zu sehen und auch gut zu hören** sind.
-**Probleme?**|Sollten Probleme entstehen wenden Sie sich bitte **vor dem vereinbarten Schulungstermin** an unser [Supportteam](https://support.stueber.de/), vielen Dank!
+#### Anleitungen
+
+Server- oder Einzelplatzinstallation: [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/installation/version11/server.installieren/)
+
+Arbeitsplatzinstallation: [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/installation/version11/arbeitsplatz.installieren/)
+
+MyMagellan: [Anleitung](https://doc.mymagellan.stueber.de/installation/)
+
+#### Beispieldatenbank
+
+Sollten Sie unsere Beispieldatenbank nicht mehr zur Hand oder bereits verändert haben, können Sie hier eine aktuelle Beispieldatenbank herunterladen:<br/>[https://download.stueber.de/bin/de/assets/magellan/v11/database/MAGELLAN11_Beispiel.FDB](https://download.stueber.de/bin/de/assets/magellan/v11/database/MAGELLAN11_Beispiel.FDB).<br/><br/>**Datenbank im Netzwerk** (Arbeitsplatzinstallation): <br/> Legen Sie diese Beispieldatenbank für jeden Teilnehmer parallel zu Ihrer Schuldatenbank ab (Beispiel: `MAGELLAN11_Beispiel.01.FDB`, `MAGELLAN11_Beispiel.02.FDB`, `MAGELLAN11_Beispiel.03.FDB`...).<br/>Richten Sie für Ihre Teilnehmer jeweils eine Verbindung zu einer der Datenbanken ein, so das jeder Teilnehmer eine Anbindung zu einer gesonderten Datenbank hat. Sie können hierfür im Magellan Administrator auf der Unterkarte `Datenbankverbindungen` eine bestehende Verbindung per `Rechtsklick > Kopieren` duplizieren und lediglich die Benennung der Datenbank auf der Unterkarte `Datenbank` anpassen.<br/><br/>**Datenbank direkt auf dem Rechner** (Server- /Einzelplatzinstallation): <br/>Wenn es die erste Magellan-Installation auf dem Rechner ist, leigt die Beispieldatenbank bereits im Datenbank-Verzeichnis. Alternativ tauschen Sie sie bitte aus.
+
+#### Lizenzen
+
+Bitte stellen Sie sicher, dass die in den Schulungen eingesetzten Programme (beispielsweise für die M02 auch MyMagellan installiert ist) und die dazugehörigen **Lizenzen** verfügbar sind.
+
+#### Benutzer
+
+In der Regel wird in den Schulungen mit dem `sysdba` gearbeitet. Das Anlegen von Benutzern und das Zuweisen von Rechten wird hier beschrieben: [https://doc.magellan.stueber.de/schulverwaltung/admin/users/](https://doc.magellan.stueber.de/schulverwaltung/admin/users/).
+Folgende Rechte werden je Schulung benötigt:
+
+Schulung|min. Rechte
+--|--
+`O-M01` | `sysdba` oder `Schulleitung1` + `Allgemeine Rechte` für `Import/Export`, `Drucken`, `Dokumentenverwaltung`
+`O-M02` | `sysdba` oder `Mandantenadministrator`
+`O-M03` | `sysdba`
+`O-M04` | `sysdba` oder `Schulleitung1` + `Allgemeine Rechte` für `Import/Export`, `Drucken`, `Dokumentenverwaltung`
+`O-M05` | `sysdba` oder `Schulleitung1` + `Allgemeine Rechte` für `Import/Export`, `Drucken`, `Dokumentenverwaltung`
+`O-M06` | `sysdba` oder `Mandantenadministrator`
+`O-S01` | `sysdba`
+`O-S02` | `sysdba`
+
+#### Tests
+
+1. Melden Sie sich mit der Standardkennung `sysdba` und dem Passwort `masterkey`. Klappt das? Wenn nicht erkundigen Sie sich intern nach den zu verwendenen Anmeldedaten und stellen Sie den Teilnehmern zur Verfügung.
+2. Bitte rufen Sie innerhalb der Magellan Schulverwaltung die Druckvorschau (`Menü Schüler > einen Schüler markieren > STRG+P > einen Bericht anklicken > STRG+V`) auf. Klappt dieser Aufruf?
+3. Bitte rufen Sie innerhalb der Magellan Schulverwaltung den Seriendruck auf (`Menü Schüler > einen Schüler markieren > STRG+S > Weiter > Mittlere Option mit "Neue Vorlage"`) auf. Öffnet sich Word in der Taskleiste?
+
+#### Kommunikation
+
+Bitte stellen Sie für die Kommunikation während der Schulung sicher, dass die **Teilnehmer zu sehen und auch gut zu hören** sind.
+
+#### Probleme?
+
+Sollten Probleme entstehen wenden Sie sich bitte **vor dem vereinbarten Schulungstermin** an unser [Supportteam](https://support.stueber.de/), vielen Dank!
 
 ### O-M01 Schulverwaltung
 
