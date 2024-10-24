@@ -59,6 +59,16 @@ Für das Gelingen der Schulungen sollte jeder Teilnehmer einen Rechner mit der [
     Bitte stellen Sie für die Kommunikation während der Schulung sicher, dass die einzelnen Teilnehmer gut zu sehen und auch gut zu hören sind.
     Führen Sie bitte die unten genannten Tests je Rechner durch!
 
+Bitte schauen Sie für die Vorbereitung der Schulung diese Punkte an:
+
+[1. Anleitung](https://doc.magellan-schulungen.stueber.de/#anleitungen)
+[2. Beispieldatenbank](https://doc.magellan-schulungen.stueber.de/#beispieldatenbank)
+[3. Lizenzen](https://doc.magellan-schulungen.stueber.de/#lizenzen)
+[4. Benutzer](https://doc.magellan-schulungen.stueber.de/#benutzer)
+[5. Tests](https://doc.magellan-schulungen.stueber.de/#tests)
+[6. Kommunikation](https://doc.magellan-schulungen.stueber.de/#kommunikation)
+[7. Probleme?](https://doc.magellan-schulungen.stueber.de/#probleme)
+
 #### Anleitungen
 
 Für die Schulungen `O-M03 Magellan Administrator` und `O-M02 Magellan Zeugniskarte` sollte zusätzlich (zu Magellan, der CR-Runtimeversion und ggfs. Firebird) für jeden Platz das Modul MyMagellan installiert werden. 
