@@ -56,7 +56,7 @@ Für das Gelingen der Schulungen sollte jeder Teilnehmer einen Rechner mit der [
 
 !!! danger Wichtig
 
-    Bitte stellen Sie für die Kommunikation während der Schulung sicher, dass die einzelnen Teilnehmer gut zu sehen und auch gut zu hören sind.
+    Bitte stellen Sie für die Kommunikation während der Schulung sicher, dass die einzelnen **Teilnehmer gut zu sehen und auch gut zu hören** sind.
     Führen Sie bitte die unten genannten Tests je Rechner durch!
 
 Bitte schauen Sie für die Vorbereitung der Schulung diese Punkte an:
