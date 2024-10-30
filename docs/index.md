@@ -63,7 +63,7 @@ Bitte schauen Sie für die Vorbereitung der Schulung diese Punkte an:
 
 [1. Anleitung](https://doc.magellan-schulungen.stueber.de/#anleitungen) <br/>
 [2. Internet](https://doc.magellan-schulungen.stueber.de/#internet) <br/>
-[3. Word und Excel](https://doc.magellan-schulungen.stueber.de/#word-und-excel) <br/>   
+[3. Word und Excel](https://doc.magellan-schulungen.stueber.de/#word-und-excel) <br/>
 [4. Beispieldatenbank](https://doc.magellan-schulungen.stueber.de/#beispieldatenbank) <br/>
 [5. Lizenzen](https://doc.magellan-schulungen.stueber.de/#lizenzen) <br/>
 [6. Benutzer](https://doc.magellan-schulungen.stueber.de/#benutzer) <br/>
