@@ -61,24 +61,34 @@ Für das Gelingen der Schulungen sollte jeder Teilnehmer einen Rechner mit der [
 
 Bitte schauen Sie für die Vorbereitung der Schulung diese Punkte an:
 
-[1. Anleitung](https://doc.magellan-schulungen.stueber.de/#anleitungen)
-[2. Beispieldatenbank](https://doc.magellan-schulungen.stueber.de/#beispieldatenbank)
-[3. Lizenzen](https://doc.magellan-schulungen.stueber.de/#lizenzen)
-[4. Benutzer](https://doc.magellan-schulungen.stueber.de/#benutzer)
-[5. Tests](https://doc.magellan-schulungen.stueber.de/#tests)
-[6. Kommunikation](https://doc.magellan-schulungen.stueber.de/#kommunikation)
+[1. Anleitung](https://doc.magellan-schulungen.stueber.de/#anleitungen) <br/>
+[2. Internet](https://doc.magellan-schulungen.stueber.de/#internet) <br/>
+[2. Word und Excel](https://doc.magellan-schulungen.stueber.de/#beispieldatenbank) <br/>   
+[2. Beispieldatenbank](https://doc.magellan-schulungen.stueber.de/#beispieldatenbank) <br/>
+[3. Lizenzen](https://doc.magellan-schulungen.stueber.de/#lizenzen) <br/>
+[4. Benutzer](https://doc.magellan-schulungen.stueber.de/#benutzer) <br/>
+[5. Tests](https://doc.magellan-schulungen.stueber.de/#tests) <br/>
+[6. Kommunikation](https://doc.magellan-schulungen.stueber.de/#kommunikation) <br/>
 [7. Probleme?](https://doc.magellan-schulungen.stueber.de/#probleme)
 
 #### Anleitungen
 
 Für die Schulungen `O-M03 Magellan Administrator` und `O-M02 Magellan Zeugniskarte` sollte zusätzlich (zu Magellan, der CR-Runtimeversion und ggfs. Firebird) für jeden Platz das Modul MyMagellan installiert werden. 
-Für `Crystal Reports-Schulungen` sollte für jeden Teilnehmer zusätzlich (zu Magellan, der CR-Runtimeversion und ggfs. Firebird) auch Crystal Reports installiert und lizenziert werden.
+Für `Crystal Reports-Schulungen` sollte für jeden Teilnehmer zusätzlich (zu Magellan, der CR-Runtimeversion und ggfs. Firebird) auch Crystal Reports installiert und lizenziert werden. 
 
 Server- oder Einzelplatzinstallation: [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/installation/version11/server.installieren/)
 
 Arbeitsplatzinstallation: [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/installation/version11/arbeitsplatz.installieren/)
 
 MyMagellan: [Anleitung](https://doc.mymagellan.stueber.de/installation/)
+
+#### Internet
+
+Für alle Schulungen wird ein Internetzugang für die Zoomanbindung und für den Aufruf von Handbüchern benötigt. 
+
+#### Word und Excel
+
+Für die Schulung `O-M01` werden zur Demonstration des Excel-Exports und der Word-Seriendruckfunktion Word und Excel benötigt.
 
 #### Beispieldatenbank
 
