@@ -63,13 +63,13 @@ Bitte schauen Sie für die Vorbereitung der Schulung diese Punkte an:
 
 [1. Anleitung](https://doc.magellan-schulungen.stueber.de/#anleitungen) <br/>
 [2. Internet](https://doc.magellan-schulungen.stueber.de/#internet) <br/>
-[2. Word und Excel](https://doc.magellan-schulungen.stueber.de/#beispieldatenbank) <br/>   
-[2. Beispieldatenbank](https://doc.magellan-schulungen.stueber.de/#beispieldatenbank) <br/>
-[3. Lizenzen](https://doc.magellan-schulungen.stueber.de/#lizenzen) <br/>
-[4. Benutzer](https://doc.magellan-schulungen.stueber.de/#benutzer) <br/>
-[5. Tests](https://doc.magellan-schulungen.stueber.de/#tests) <br/>
-[6. Kommunikation](https://doc.magellan-schulungen.stueber.de/#kommunikation) <br/>
-[7. Probleme?](https://doc.magellan-schulungen.stueber.de/#probleme)
+[3. Word und Excel](https://doc.magellan-schulungen.stueber.de/#word-und-excel) <br/>   
+[4. Beispieldatenbank](https://doc.magellan-schulungen.stueber.de/#beispieldatenbank) <br/>
+[5. Lizenzen](https://doc.magellan-schulungen.stueber.de/#lizenzen) <br/>
+[6. Benutzer](https://doc.magellan-schulungen.stueber.de/#benutzer) <br/>
+[7. Tests](https://doc.magellan-schulungen.stueber.de/#tests) <br/>
+[8. Kommunikation](https://doc.magellan-schulungen.stueber.de/#kommunikation) <br/>
+[9. Probleme?](https://doc.magellan-schulungen.stueber.de/#probleme)
 
 #### Anleitungen
 
