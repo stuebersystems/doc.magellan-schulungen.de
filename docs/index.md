@@ -76,10 +76,8 @@ Bitte schauen Sie für die Vorbereitung der Schulung diese Punkte an:
 Für die Schulungen `O-M03 Magellan Administrator` und `O-M02 Magellan Zeugniskarte` sollte zusätzlich (zu Magellan, der CR-Runtimeversion und ggfs. Firebird) für jeden Platz das Modul MyMagellan installiert werden. 
 Für `Crystal Reports-Schulungen` sollte für jeden Teilnehmer zusätzlich (zu Magellan, der CR-Runtimeversion und ggfs. Firebird) auch Crystal Reports installiert und lizenziert werden. 
 
-Server- oder Einzelplatzinstallation: [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/installation/version11/server.installieren/)
-
-Arbeitsplatzinstallation: [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/installation/version11/arbeitsplatz.installieren/)
-
+Server- oder Einzelplatzinstallation: [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/installation/version11/server.installieren/)<br/>
+Arbeitsplatzinstallation: [Anleitung](https://doc.magellan.stueber.de/schulverwaltung/installation/version11/arbeitsplatz.installieren/)<br/>
 MyMagellan: [Anleitung](https://doc.mymagellan.stueber.de/installation/)
 
 #### Internet
