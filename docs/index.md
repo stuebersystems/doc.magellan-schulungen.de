@@ -103,12 +103,12 @@ Folgende Rechte werden je Schulung benötigt:
 
 Schulung|min. Rechte
 --|--
-`O-M01` | `sysdba` oder `Schulleitung1` + `Allgemeine Rechte` für `Import/Export`, `Drucken`, `Dokumentenverwaltung`
-`O-M02` | `sysdba` oder `Mandantenadministrator`
+`O-M01` | `sysdba` oder `Schulleitung1` + `Allgemeine Rechte` für `Import/Export`, `Drucken`, `Dokumentenverwaltung`, `Verzeichnisse editieren`
+`O-M02` | `sysdba` oder `Mandantenadministrator`, `Verzeichnisse editieren`
 `O-M03` | `sysdba`
-`O-M04` | `sysdba` oder `Schulleitung1` + `Allgemeine Rechte` für `Import/Export`, `Drucken`, `Dokumentenverwaltung`
-`O-M05` | `sysdba` oder `Schulleitung1` + `Allgemeine Rechte` für `Import/Export`, `Drucken`, `Dokumentenverwaltung`
-`O-M06` | `sysdba` oder `Mandantenadministrator`
+`O-M04` | `sysdba` oder `Schulleitung1` + `Allgemeine Rechte` für `Import/Export`, `Drucken`, `Dokumentenverwaltung`, `Verzeichnisse editieren`
+`O-M05` | `sysdba` oder `Schulleitung1` + `Allgemeine Rechte` für `Import/Export`, `Drucken`, `Dokumentenverwaltung`, `Verzeichnisse editieren`
+`O-M06` | `sysdba` oder `Mandantenadministrator`, `Verzeichnisse editieren`
 `O-S01` | `sysdba`
 `O-S02` | `sysdba`
 
