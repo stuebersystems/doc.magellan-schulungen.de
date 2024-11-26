@@ -96,7 +96,7 @@ Sollten Sie unsere Beispieldatenbank nicht mehr zur Hand oder bereits verändert
 
 Bitte stellen Sie sicher, dass die in den Schulungen eingesetzten Programme (beispielsweise für die M02 auch MyMagellan installiert ist) und die dazugehörigen **Lizenzen** verfügbar sind.
 
-#### Benutzer
+#### Benutzer und Rechte
 
 In der Regel wird in den Schulungen mit dem `sysdba` gearbeitet, bitte stellen Sie sicher, dass den Teilnehmern das Passwort zur Verfügung steht. Für einige Schulungen ist der `sysdba` nicht unbedingt nötig, das Anlegen von Benutzern und das Zuweisen von Rechten wird hier beschrieben: [https://doc.magellan.stueber.de/schulverwaltung/admin/users/](https://doc.magellan.stueber.de/schulverwaltung/admin/users/).
 Folgende Rechte werden je Schulung benötigt:
